@@ -1,0 +1,234 @@
+﻿/******************FOOTER*****************/
+.footer-new-home{
+    position: relative;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    height: auto;
+    padding-bottom: 70px;
+}
+.footer-new-home::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 25px;
+    background-color: #FFFF;
+    top: 99%;
+}
+#footer-seguros{
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#footer-seguros-container{
+    position: relative;
+    width: 1200px;
+    max-width: 100%;
+    height: auto;
+    margin: 0px auto;
+    padding: 0px;
+    display: block;
+    box-sizing: border-box;
+}
+.footer1,.footer2,.footer4{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin: 0px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px 15px;
+    border-bottom: #e6e7ed solid 1px;
+}
+.footer2{
+    align-items: stretch;
+}
+.footer3{
+    position: relative;
+    display: block;
+    margin: 0px;
+    padding: 20px 0px;
+    width: 100%;
+    box-sizing: border-box;
+    border-bottom: #e6e7ed solid 1px;
+}
+.footer4{
+    padding: 20px 0px;
+    border-bottom: none;
+}
+
+.footer1-logoseguros{
+    height: 65px;
+    width: auto;
+}
+.footer1-logosura{
+    height: 42px;
+    width: auto;
+}
+
+.footer2-col{
+    position: relative;
+    display: flex;
+    width: 25%;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+.footer2-col > h6{
+    position: relative;
+    display: block;
+    margin: 0px;
+    padding: 0px;
+
+    font-family: 'Barlow-Bold';
+    font-size: 15px;
+    color: #53565A;
+    font-weight: normal;
+    line-height: normal;
+    text-align: left;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+.footer2-col > ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+.footer2-col > ul > li{
+    margin: 0px;
+    margin-bottom: 5px;
+    display: block;
+    padding: 0px;
+
+    font-family: 'Barlow-Regular';
+    font-size: 14px;
+    color: #53565A;
+    font-weight: normal;
+    line-height: normal;
+    text-align: left;
+    text-decoration: none !important;
+}
+.footer2-col > ul > li a{
+    text-decoration: inherit !important;
+    color: inherit !important;
+    font-family: inherit !important;
+}
+.footer2-col > ul > li span{
+    font-family: 'Barlow-Bold';
+}
+
+.footer3-col-collapsed{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin: 0px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0px;
+    overflow: hidden;
+
+    transition: max-height 0.2s;
+    -webkit-transition: max-height 0.2s;
+}
+
+.footer3-nav,.footer3-title{
+    position: relative;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+
+    box-sizing: border-box;
+    font-family: 'Barlow-Bold';
+    font-size: 15px;
+    color: #53565A;
+    font-weight: normal;
+    line-height: normal;
+    text-align: left;
+}
+.footer3-title{
+    width: 100%;
+    height: 30px;
+    justify-content: left;
+    align-items: center;
+    display: none;
+    cursor: pointer;
+}
+.footer3-nav a{
+    text-decoration: inherit !important;
+    color: inherit !important;
+    font-family: inherit !important;
+}
+
+.footer-copyright{
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+
+    font-family: 'Barlow-Regular';
+    font-size: 13px;
+    color: #53565A;
+    font-weight: normal;
+    line-height: normal;
+    text-align: left;
+}
+.footer-redes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+}
+.footer-redes p{
+    display: flex;   
+    align-items: center;
+    justify-content: center;
+    margin: 0px !important;
+    margin-left: 20px !important;
+    padding: 0px;
+}
+.footer-redes p a{
+    text-decoration: inherit !important;
+    color: inherit !important;
+    font-family: inherit !important;
+}
+.footer-redes p i{
+    color: #53565A;
+    font-size: 16px;
+}
+.footer-redes p:first-child,
+.footer-redes p:nth-last-child(1),
+.footer-redes p:nth-last-child(2){
+    display: block;
+    font-family: 'FSJoey-Bold';
+    font-size: 18px;
+    color: #53565A;
+    font-weight: normal;
+    line-height: normal;
+    text-align: left;
+    padding: 0px;
+    text-decoration: none !important;
+}
+
+.footer-redes p:first-child{
+    margin-left: 0px;
+}
+
+.dummy-chat-content-oculto{
+    display: none !important;
+}

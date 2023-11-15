@@ -1,0 +1,4436 @@
+/*Google fonts*/
+
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800");
+
+/*Fuentes principales SURA*/
+
+
+/*FS-JOEY*/
+
+@font-face {
+    font-family: 'FS Joey';
+    src: url("../fonts/fs-joey/light/FSJoey-Light.eot");
+    src: url("../fonts/fs-joey/light/FSJoey-Light.eot");
+    src: url("../fonts/fs-joey/light/FSJoey-Light.eot%3F") format("embedded-opentype"), url("../fonts/fs-joey/light/FSJoey-Light.woff2") format("woff2"), url("../fonts/fs-joey/light/FSJoey-Light.woff") format("woff"), url("../fonts/fs-joey/light/FSJoey-Light.ttf") format("truetype"), url("../fonts/fs-joey/light/FSJoey-Light.svg") format("svg");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FS Joey';
+    src: url("../fonts/fs-joey/medium/FSJoey-Medium.eot");
+    src: url("../fonts/fs-joey/medium/FSJoey-Medium.eot%3F") format("embedded-opentype"), url("../fonts/fs-joey/medium/FSJoey-Medium.woff2") format("woff2"), url("../fonts/fs-joey/medium/FSJoey-Medium.woff") format("woff"), url("../fonts/fs-joey/medium/FSJoey-Medium.ttf") format("truetype"), url("../fonts/fs-joey/medium/FSJoey-Medium.svg") format("svg");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FS Joey';
+    src: url("../fonts/fs-joey/bold/FSJoey-Bold.eot");
+    src: url("../fonts/fs-joey/bold/FSJoey-Bold.eot%3F") format("embedded-opentype"), url("../fonts/fs-joey/bold/FSJoey-Bold.woff2") format("woff2"), url("../fonts/fs-joey/bold/FSJoey-Bold.woff") format("woff"), url("../fonts/fs-joey/bold/FSJoey-Bold.ttf") format("truetype"), url("../fonts/fs-joey/bold/FSJoey-Bold.svg") format("svg");
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+/*DIN*/
+
+@font-face {
+    font-family: 'DIN';
+    src: url("../fonts/din/regular/DIN-Regular.eot");
+    src: url("../fonts/din/regular/DIN-Regular.eot%3F") format("embedded-opentype"), url("../fonts/din/regular/DIN-Regular.woff2") format("woff2"), url("../fonts/din/regular/DIN-Regular.woff") format("woff"), url("../fonts/din/regular/DIN-Regular.ttf") format("truetype"), url("../fonts/din/regular/DIN-Regular.svg") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DIN';
+    src: url("../fonts/din/medium/DIN-Medium.eot");
+    src: url("../fonts/din/medium/DIN-Medium.eot%3F") format("embedded-opentype"), url("../fonts/din/medium/DIN-Medium.woff2") format("woff2"), url("../fonts/din/medium/DIN-Medium.woff") format("woff"), url("../fonts/din/medium/DIN-Medium.ttf") format("truetype"), url("../fonts/din/medium/DIN-Medium.svg") format("svg");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DIN';
+    src: url("../fonts/din/bold/DIN-Bold.eot");
+    src: url("../fonts/din/bold/DIN-Bold.eot%3F") format("embedded-opentype"), url("../fonts/din/bold/DIN-Bold.woff2") format("woff2"), url("../fonts/din/bold/DIN-Bold.woff") format("woff"), url("../fonts/din/bold/DIN-Bold.ttf") format("truetype"), url("../fonts/din/bold/DIN-Bold.svg") format("svg");
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+
+/*Fuentes*/
+
+.swal-modal .swal-footer .swal-button {
+    background-color: #0033A0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.swal-modal .swal-footer .swal-button--cancel {
+    color: #404040;
+    background-color: #efefef;
+}
+
+.modal-addressee .proof-payment .title {
+    text-align: center;
+    padding: 20px;
+}
+
+.modal-addressee .proof-payment .title h1 {
+    color: #333333;
+    font-family: "FS Joey";
+}
+
+.modal-addressee .proof-payment .title button {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.modal-addressee .proof-payment .content .addressee p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.modal-addressee .proof-payment .content .addressee .tab-content {
+    overflow: inherit;
+    padding: 0 20px;
+}
+
+.modal-addressee .proof-payment .content .addressee .tab-content input {
+    height: 45px;
+    line-height: 45px;
+    padding: 0 20px;
+    border: 0;
+    font-size: 14px;
+    -webkit-box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15);
+    margin-bottom: 20px;
+    border-radius: 2px;
+    width: 100%;
+}
+
+.modal-addressee .proof-payment .content .addressee .action {
+    text-align: center;
+    padding: 10px 20px 30px;
+}
+
+.modal-addressee .proof-payment .content .addressee .action a.btn {
+    display: inline-block;
+    width: inherit;
+    height: inherit;
+    font-family: "FS Joey";
+    border-radius: 50px;
+    padding: 0px 40px;
+    line-height: 40px;
+    font-size: 18px;
+}
+
+.modal-addressee .proof-payment .content .addressee .action a.btn.yellow {
+    background-color: #e3e829;
+    color: #0033a0;
+}
+
+.pes a.btn {
+    border-radius: 100px;
+    font-family: 'FS Joey';
+    height: 40px;
+    line-height: 40px;
+    font-weight: 900;
+    display: block;
+    font-size: 16px;
+    text-align: center;
+    position: relative;
+    padding: 0;
+    -webkit-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.37);
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.37);
+    max-width: inherit;
+    width: 100%;
+}
+
+.pes a.btn:hover,
+.pes a.btn:focus {
+    text-decoration: none;
+}
+
+.pes a.btn.normal {
+    width: auto;
+    padding: 0 30px;
+}
+
+.pes a.btn.yellow {
+    background-color: #e3e829;
+    color: #0033a0;
+    text-transform: uppercase;
+}
+
+.pes a.btn.yellow.normal {
+    text-transform: none;
+}
+
+.pes a.btn.blue {
+    background-color: #0033a0;
+    color: #ffffff;
+    padding: 0 20px;
+}
+
+.pes a.btn.blue.w-icon .icon {
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    background-image: none;
+}
+
+.pes a.btn.blue.w-icon .icon img {
+    width: 20px;
+    height: 20px;
+    margin-top: 12px;
+}
+
+.pes a.btn.blue.w-icon span {
+    padding-left: 25px;
+}
+
+.pes a.btn.gray {
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.pes label.control {
+    position: relative;
+    top: 0;
+    margin-bottom: 10px;
+    pointer-events: all;
+    font-size: 11px;
+    line-height: 33px;
+    font-weight: bold;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: -0.3px;
+    color: #565656;
+}
+
+.pes label.control.number-card {
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+.pes .control {
+    display: block;
+    position: relative;
+    padding-left: 23px;
+    margin-bottom: 0;
+    margin-top: 0;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 20px;
+    height: 20px;
+    font-weight: 300;
+}
+
+.pes .control.normal {
+    margin-bottom: 0;
+}
+
+.pes .control .block i {
+    font-size: 20px;
+    margin: 7px 0 2px 2px;
+    color: #ff7600;
+}
+
+.pes .control span {
+    display: none;
+}
+
+.pes .control input {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+}
+
+.pes .control__indicator {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background: #ffffff;
+    -webkit-box-shadow: inset 0 0 0 1px #aeaeae;
+    box-shadow: inset 0 0 0 1px #aeaeae;
+    border-radius: 3px;
+}
+
+.pes .control:hover input~.control__indicator,
+.pes .control input:focus~.control__indicator {
+    background: #ffffff;
+}
+
+.pes .control input:checked~.control__indicator {
+    background: #0033a0;
+}
+
+.pes .control:hover input:not([disabled]):checked~.control__indicator,
+.pes .control input:checked:focus~.control__indicator {
+    background: #0033a0;
+}
+
+.pes .control input:disabled~.control__indicator {
+    background: #e6e6e6;
+    opacity: 0.6;
+    pointer-events: none;
+}
+
+.pes .control__indicator:after {
+    content: '';
+    position: absolute;
+    display: none;
+}
+
+.pes .control input:checked~.control__indicator:after {
+    display: block;
+}
+
+.pes .control--checkbox .control__indicator:after {
+    left: 7px;
+    top: 5px;
+    width: 5px;
+    height: 8px;
+    border: solid #fff;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.pes .control--checkbox input:disabled~.control__indicator:after {
+    border-color: #7b7b7b;
+}
+
+.pes .control--radio .control__indicator:after {
+    left: 7px;
+    top: 7px;
+    height: 6px;
+    width: 6px;
+    border-radius: 50%;
+    background: #fff;
+}
+
+.pes .control--radio input:disabled~.control__indicator:after {
+    background: #7b7b7b;
+}
+
+.pes .control--radio .control__indicator {
+    border-radius: 50%;
+}
+
+.pes .pagoexpress article.user-options .search-c .content .control--radio {
+    margin-bottom: 20px;
+}
+
+.pes .pagoexpress article.user-options .search-c .content .control__indicator {
+    top: 6px;
+}
+
+.pes .pagoexpress div#avisopagoautomatico h1, .pes .pagoexpress div#avisopagoautomatico h2 {
+    font-size: 26px;
+    font-weight: 700;
+    color: #0033a0;
+    font-family: "FS Joey";
+    line-height: 25px;
+}
+
+.pes .pagoexpress div#avisopagoautomatico .row {
+    display: flex;
+    align-items: center;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    width: 100%;
+    margin: 0 auto;
+	margin-bottom: 20px!important;
+	padding: 20px;
+
+
+}
+
+.pes .pagoexpress div#avisopagoautomatico p {
+    color: #666;
+    font-size: 14px;
+    display: inline-block;
+    max-width: 277px;
+    margin-top: 10px;
+    vertical-align: middle;
+}
+
+.pes .pagoexpress div#avisopagoautomatico p.indicador-texto {
+    margin-right: 5px;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 20px;
+    color: #00aec7;
+    vertical-align: middle;
+}
+
+.pes .pagoexpress #avisopagoautomatico input.btn.yellow {
+    display: block;
+    max-width: 500px!important;
+    text-align: center;
+    padding: 0px 20px;
+    text-transform: uppercase;
+    height: inherit;
+    line-height: 40px;
+    border-radius: 50px;
+    font-family: "FSJoey-Light";
+    font-size: 15px;
+    background-color: #E3E829;
+    color: #0033A0;
+    border: none!important;
+    margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+    .pes .nav.nav-tabs.tabs3 li a span {
+        display: block !important;
+        font-size: 12px;
+        height: auto;
+        line-height: 14px;
+		}
+		
+.pes .pagoexpress div#avisopagoautomatico .row {
+    display: block!important;
+    width: 100%;
+	padding: 20px!important;
+    margin: 0 auto!important;
+	margin-bottom: 20px!important;
+
+}
+	
+	.pes .pagoexpress #avisopagoautomatico input.btn.yellow{
+		margin-top: 10px!important;
+		
+	}
+		
+    
+}
+
+@media (max-width: 400px) {
+    .pes .nav.nav-tabs.tabs3 li a span {
+        height: 30px;
+    }
+}
+
+.pes .nav.nav-tabs.tabs4 {
+    border-bottom: 2px solid #0033a0;
+    padding-bottom: 1px;
+}
+
+@media (max-width: 992px) {
+    .pes .nav.nav-tabs.tabs4 {
+        margin-top: 20px;
+    }
+}
+
+.pes .nav.nav-tabs.tabs4 li {
+    width: 25%;
+    background-color: #f8f8f8;
+    border-radius: 7px 7px 0 0;
+    border: 0;
+    text-align: center;
+}
+
+.pes .nav.nav-tabs.tabs4 li a {
+    border-bottom: 0;
+    border-left: 0px solid #ffffff;
+    border-right: 2px solid #ffffff;
+    border-top: 2px solid #ffffff;
+    padding: 14px;
+    color: #303030;
+    font-weight: 700;
+    font-size: 16px;
+    margin-right: 0;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .pes .nav.nav-tabs.tabs4 li a {
+        font-size: 13px;
+        height: 50px;
+        padding: 5px;
+    }
+	
+	
+	.range-date.clearfix .form-group .col-md-9 {
+    padding: 0px!Important;
+}
+	
+	
+}
+
+@media (max-width: 400px) {
+    .pes .nav.nav-tabs.tabs4 li a {
+        padding: 3px;
+    }
+	
+		.range-date.clearfix .form-group .col-md-9 {
+    padding: 0px!Important;
+}
+}
+
+.pes .nav.nav-tabs.tabs4 li a i.fa {
+    font-size: 15px;
+    margin-right: 14px;
+}
+
+@media (max-width: 1000px) {
+    .pes .nav.nav-tabs.tabs4 li a i.fa {
+        margin-right: 0;
+    }
+}
+
+.pes .nav.nav-tabs.tabs4 li.active a {
+    border-bottom: 0;
+    border-left: 0px solid #ffffff;
+    border-right: 2px solid #ffffff;
+    border-top: 2px solid #ffffff;
+    background-color: #0033a0;
+    color: #ffffff;
+}
+
+.pes .nav.nav-tabs.tabs3 li {
+    width: 33.333333333% !important;
+}
+
+.pes .tab-content.tabs2 .tab-pane h6 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.pes .tab-content.tabs2 .tab-pane h5 {
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 40px;
+}
+
+.pes .tab-content.tabs2 .tab-pane table.table.default tfoot tr td.text-right {
+    padding-right: 20px;
+}
+
+.pes .table-responsive {
+    border: 0;
+}
+
+.pes table {
+    min-width: 100%;
+}
+
+@media (max-width: 768px) {
+    .pes table.table.table-cards-inscritas {
+        display: none;
+    }
+}
+
+.pes table.table.table-cards-inscritas.small-only {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .pes table.table.table-cards-inscritas.small-only {
+        display: block;
+    }
+    .pes table.table.table-cards-inscritas.small-only tbody tr {
+        border: none;
+    }
+    .pes table.table.table-cards-inscritas.small-only tbody tr:first-child {
+        border-top: 1px solid rgba(0, 0, 0, 0.1);
+        background-color: rgba(0, 0, 0, 0.1);
+    }
+    .pes table.table.table-cards-inscritas.small-only tbody tr:first-child th {
+        text-align: center;
+        font-weight: 600;
+    }
+    .pes table.table.table-cards-inscritas.small-only tbody tr:nth-child(2) th {
+        text-align: center;
+    }
+    .pes table.table.table-cards-inscritas.small-only tbody tr td {
+        border: none;
+        position: relative;
+        text-align: left;
+        font-size: 12px;
+        width: 100%;
+    }
+    .pes table.table.table-cards-inscritas.small-only tbody tr td .cuota {
+        right: 10px;
+    }
+	.pes table.table.table-cards-inscritas.small-only tbody tr td .danger-text {
+        color: #a94442;
+    }
+}
+
+@media (max-width: 768px) {
+    .pes table.table.table-cards-re {
+        display: none;
+    }
+}
+
+.pes table.table.table-cards-re.small-only {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .pes table.table.table-cards-re.small-only {
+        display: block;
+    }
+    .pes table.table.table-cards-re.small-only tbody tr {
+        border: none;
+    }
+    .pes table.table.table-cards-re.small-only tbody tr:first-child {
+        border-top: 1px solid rgba(0, 0, 0, 0.1);
+    }
+    .pes table.table.table-cards-re.small-only tbody tr:first-child th {
+        font-weight: 600;
+    }
+    .pes table.table.table-cards-re.small-only tbody tr td {
+        border: none;
+        position: relative;
+        text-align: left;
+        font-size: 12px;
+        width: 100%;
+    }
+    .pes table.table.table-cards-re.small-only tbody tr td .cuota {
+        right: 10px;
+    }
+}
+
+.pes table.table.default thead {
+    background-color: #f5f5f5;
+}
+
+.pes table.table.default thead tr th {
+    position: relative;
+    font-weight: 600;
+    padding: 13px 10px 13px;
+    border: none;
+    font-size: 14px;
+    font-weight: bold !important;
+    text-align: center;
+}
+
+.pes table.table.default thead tr th.text-right {
+    text-align: right;
+}
+
+.pes table.table.default thead tr th:first-child {
+    width: 30px;
+}
+
+.pes table.table.default thead tr th:last-child {
+    text-align: right;
+}
+
+.pes table.table.default td {
+    border-top: none;
+}
+
+.pes table.table.default tbody tr {
+    border-bottom: 1px solid #eaeaea;
+}
+
+.pes table.table.default tbody tr.la-normal {
+    border-bottom: 1px solid rgba(239, 239, 239, 0.27) !important;
+}
+
+.pes table.table.default tbody tr.la-separadora {
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.pes table.table.default tbody tr.grupo-flujo {
+    border-bottom: 1px solid #4e77d0;
+}
+
+.pes table.table.default tbody tr.disabled td {
+    color: #c1c1c1;
+}
+
+.pes table.table.default tbody tr.disabled td.payment-methods {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    opacity: 0.3;
+}
+
+.pes table.table.default tbody tr.disabled:hover {
+    background-color: transparent;
+}
+
+.pes table.table.default tbody tr td {
+    /* font-weight: 200; */
+    font-size: 14px;
+    line-height: 33px;
+    position: relative;
+    text-align: center;
+    border: none;
+    color: #303030;
+}
+
+.pes table.table.default tbody tr td .control__indicator {
+    top: 5.5px;
+}
+
+.pes table.table.default tbody tr td label.control {
+    padding-left: 0;
+}
+
+.pes table.table.default tbody tr td.txt-right {
+    text-align: right;
+}
+
+.pes table.table.default tbody tr td .plan {
+    font-size: 13px;
+    margin-top: -7px;
+}
+
+@media (max-width: 768px) {
+    .pes table.table.default tbody tr td .plan {
+        line-height: 12px;
+        margin-bottom: 8px;
+    }
+}
+
+.pes table.table.default tbody tr td .cuota {
+    font-size: 10px;
+    opacity: .8;
+    line-height: 0;
+    margin-bottom: 10px;
+    position: absolute;
+}
+
+.pes table.table.default tbody tr td .payments {
+    width: auto;
+}
+
+.pes table.table.default tbody tr td .payments ul.payments-table {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.pes table.table.default tbody tr td .payments ul.payments-table li {
+    display: inline-block;
+    *display: inline;
+    /*IE7*/
+    *zoom: 1;
+    /*IE7*/
+}
+
+.pes table.table.default tbody tr td .payments ul.payments-table li img {
+    width: 35px;
+}
+
+.pes table.table.default tbody tr td:last-child {
+    font-weight: 700;
+    text-align: right;
+    width: 150px;
+}
+
+.pes table.table.default tbody tr:last-child td {
+    font-size: 14px;
+}
+
+.pes table.table.default tbody tr:first-child td {
+    border: none;
+}
+
+.pes table.table.default tfoot td {
+    text-align: center;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.pes table.table.default tfoot td.text-right {
+    text-align: right;
+}
+
+.pes table.table.resumen thead tr th {
+    font-weight: 700;
+    height: 50px;
+    line-height: 50px;
+    padding: 0;
+    font-size: 14px;
+}
+
+.pes table.table.resumen thead tr th:last-child {
+    text-align: right;
+}
+
+.pes table.table.resumen tbody tr td {
+    width: 50%;
+    position: relative;
+}
+
+.pes table.table.resumen tbody tr td .title-fact {
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.pes table.table.resumen tbody tr td .title-fact2 {
+    font-weight: 600;
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+.pes table.table.resumen tbody tr td .descrip-fact {
+    font-weight: 400;
+}
+
+.pes table.table.resumen tbody tr td .descrip-fact p {
+    font-size: 12px;
+}
+
+.pes table.table.resumen tbody tr td .balance {
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.pes table.table.resumen tbody tr td .balance a {
+    display: block;
+    float: right;
+    padding-left: 10px;
+}
+
+.pes table.table.resumen tbody tr td .balance a i.fa {
+    color: #ce473d;
+}
+
+.pes table.table.resumen tbody tr.total {
+    font-weight: 700;
+}
+
+.pes table.table.resumen tbody tr.total:last-child td:last-child {
+    text-align: right;
+}
+
+.pes table.table.resumen tbody tr:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.pes table.table.my-credits-cards tbody tr td {
+    height: 50px;
+    padding: 0;
+    position: relative;
+    line-height: 50px;
+}
+
+.pes table.table.my-credits-cards tbody tr td:last-child {
+    text-align: right;
+    padding-right: 10px;
+}
+
+.pes table.table.my-credits-cards tbody tr td:first-child {
+    padding-left: 10px;
+}
+
+.pes table.table.my-credits-cards tbody tr td:nth-child(2) {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.pes table.table.my-credits-cards tbody tr:last-child {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.pes table.table.resumen-pago thead {
+    background-color: #f5f5f5;
+}
+
+.pes table.table.resumen-pago thead tr th {
+    position: relative;
+    font-weight: 600;
+}
+
+.pes table.table.resumen-pago tbody tr td {
+    position: relative;
+    padding: 5px 10px;
+}
+
+.pes table.table.resumen-pago tbody tr td .plan {
+    font-size: 13px;
+    margin-top: -5px;
+    margin-bottom: 3px;
+    line-height: 20px;
+}
+
+.pes table.table.resumen-pago tbody tr td .cuota {
+    font-size: 10px;
+    opacity: .8;
+    line-height: 0;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    position: absolute;
+}
+
+.pes table.table.resumen-pago tbody tr td.text-right {
+    text-align: right;
+}
+
+.pes table.table.resumen-pago tbody tr td:last-child {
+    text-align: right;
+    font-weight: 700;
+}
+
+.pes table.table.resumen-pago tbody tr td:last-child a i.fa-download,
+.pes table.table.resumen-pago tbody tr td:last-child a i.fa-file-text-o {
+    font-size: 20px;
+    margin: 3px;
+    color: #0033a0;
+}
+
+.pes table.table.resumen-pago tbody tr td span {
+    font-weight: 400;
+}
+
+.pes table.table.resumen-pago tbody tr td .editValue {
+    margin-bottom: 0;
+    height: 33px;
+    text-align: right;
+    padding: 10px;
+}
+
+.pes table.table.resumen-pago tbody tr td .editValue.is-invalid {
+    border: 1px solid red;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-radius: 3px;
+}
+
+.pes table.table.resumen-pago tbody tr td .totalValue {
+    padding-right: 10px;
+}
+
+.pes table.table.resumen-pago tbody tr:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.pes table.table.history {
+    margin-top: 30px;
+}
+
+.pes table.table.history thead {
+    background-color: #f5f5f5;
+}
+
+.pes table.table.history thead tr th {
+    position: relative;
+    font-weight: 600;
+    text-align: center;
+}
+
+.pes table.table.history tbody tr td {
+    text-align: center;
+    font-weight: 200;
+    font-size: 12px;
+    line-height: 33px;
+    position: relative;
+}
+
+.pes table.table.history tbody tr td .payments {
+    width: auto;
+}
+
+.pes table.table.history tbody tr td .payments ul.payments-table {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.pes table.table.history tbody tr td .payments ul.payments-table li {
+    display: inline-block;
+    *display: inline;
+    /*IE7*/
+    *zoom: 1;
+    /*IE7*/
+}
+
+.pes table.table.history tbody tr td .payments ul.payments-table li img {
+    width: 40px;
+    opacity: .7;
+}
+
+.pes table.table.history tbody tr td:last-child a {
+    display: block;
+    color: #555555;
+    font-size: 14px;
+}
+
+.pes table.table.history tbody tr td:last-child a:hover {
+    color: #333333;
+}
+
+.pes table.table.credits-cards-inscritas thead {
+    background-color: #f5f5f5;
+}
+
+.pes table.table.credits-cards-inscritas thead tr th {
+    position: relative;
+    font-weight: 600;
+    text-align: center;
+}
+
+.pes table.table.credits-cards-inscritas thead tr.left-txt th {
+    text-align: left;
+}
+
+.pes table.table.credits-cards-inscritas tbody tr.left-txt td {
+    text-align: left;
+}
+
+.pes table.table.credits-cards-inscritas tbody tr.left-txt td:last-child {
+    padding-bottom: 20px;
+}
+
+.pes table.table.credits-cards-inscritas tbody tr td {
+    text-align: center;
+}
+
+.pes table.table.credits-cards-inscritas tbody tr td .number-credit-card {
+    color: #555555;
+    opacity: .6;
+    display: inline-block;
+}
+
+.pes table.table.credits-cards-inscritas tbody tr td.-select select,
+.pes table.table.credits-cards-inscritas tbody tr td.-select input {
+    width: 60px;
+    margin-bottom: 0;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 5px;
+}
+
+.pes table.table.credits-cards-inscritas tbody tr td .name-credit-card {
+    color: #333333;
+    display: inline-block;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.pes table.table.credits-cards-inscritas tbody tr td .actions-credit-card {
+    color: #555555;
+    opacity: .8;
+    display: inline-block;
+    font-weight: 600;
+}
+
+@media (max-width: 768px) {
+    .pes table.table.credits-cards-inscritas tbody tr td .actions-credit-card {
+        position: absolute;
+        right: 10px;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+}
+
+.pes table.table.credits-cards-inscritas tbody tr td .actions-credit-card a {
+    display: block;
+    width: 30px;
+    float: left;
+    text-align: center;
+    color: #333333;
+    opacity: .6;
+    cursor: pointer;
+}
+
+.pes table.table.credits-cards-inscritas tbody tr td .actions-credit-card a:hover {
+    opacity: 1;
+}
+
+.pes .responsive-table.new {
+    margin-bottom: 30px;
+}
+
+@media (min-width: 800px) {
+    .pes .responsive-table.new {
+        display: none !important;
+    }
+}
+
+.pes .responsive-table.new .cp {
+    padding: 0;
+}
+
+.pes .responsive-table.new .select-all {
+    border-bottom: 1px solid #e4e4e4;
+    padding: 10px 15px !important;
+    background-color: #f7f7f7;
+}
+
+.pes .responsive-table.new .select-all p {
+    font-size: 14px;
+    color: #676767;
+    font-weight: 500;
+}
+
+.pes .responsive-table.new p {
+    font-size: 12px;
+    color: #7d7d7d;
+}
+
+@media (max-width: 375px) {
+    .pes .responsive-table.new p {
+        font-size: 11px;
+    }
+}
+
+.pes .responsive-table.new p span {
+    font-size: 16px;
+    color: #575757;
+    font-weight: bold;
+}
+
+@media (max-width: 400px) {
+    .pes .responsive-table.new p span {
+        font-size: 14px;
+    }
+}
+
+.pes .responsive-table.new .row-dates {
+    border-bottom: 1px solid #e4e4e4;
+    padding: 5px 0px 5px 15px;
+}
+
+.pes .responsive-table.new .row-dates .check {
+    padding: 29px 0;
+}
+
+.pes .responsive-table.new .row-dates .control {
+    padding-left: 0;
+}
+
+.pes .responsive-table.new .row-dates .fa.fa-trash {
+    color: #f65c5c;
+    font-size: 20px;
+}
+
+.pes .responsive-table.new .row-dates .col-1 p {
+    margin-bottom: 5px;
+    line-height: 16px;
+    margin: 0;
+}
+
+.pes .responsive-table.new .row-dates .col-1 p:first-child {
+    margin-bottom: 7px;
+}
+
+.pes .responsive-table.new .row-dates .col-1 p span {
+    white-space: nowrap;
+}
+
+@media (max-width: 400px) {
+    .pes .responsive-table.new .row-dates .col-1 p span {
+        letter-spacing: -0.4px;
+    }
+}
+
+.pes .responsive-table.new .row-dates .col-2 {
+    text-align: right;
+}
+
+.pes .responsive-table.new .row-dates .col-2 p {
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.pes .responsive-table.new .row-dates .col-2 p span {
+    font-size: 14px;
+}
+
+.pes .responsive-table.new .row-dates .col-2 .value {
+    font-size: 20px;
+    color: #00aec7;
+}
+
+.pes .responsive-table.new .row-dates .col-2 .limited {
+    margin-top: 9px;
+}
+
+@media (max-width: 375px) {
+    .pes .responsive-table.new .row-dates .col-2 .limited {
+        line-height: 16px;
+    }
+}
+
+.pes .responsive-table.new .row-dates .col-2 .limited input {
+    color: #00aec7;
+    font-weight: bold;
+    height: 26px;
+    margin-top: 5px;
+    padding: 5px;
+    text-align: right;
+}
+
+.pes .responsive-table.new .total {
+    background-color: #ececec;
+    text-align: right;
+    padding: 5px 15px;
+}
+
+.pes .responsive-table.new .total p {
+    font-size: 18px;
+    font-weight: 600;
+    color: #575757;
+}
+
+.pes .responsive-table.new .total p span {
+    font-size: 20px;
+    color: #00aec7;
+}
+
+@media (max-width: 400px) {
+    .pes .responsive-table.new .total p span {
+        font-size: 20px;
+    }
+}
+
+.pes .modal.confirm-add-credit .modal-header,
+.pes .modal.confirm-add-credit .modal-footer {
+    display: none;
+}
+
+.pes .modal.confirm-add-credit .modal-content {
+    border-radius: 0;
+}
+
+.pes .modal.confirm-add-credit .modal-dialog {
+    width: 500px;
+    border-radius: 0;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+    .pes .modal.confirm-add-credit .modal-dialog {
+        width: 100%;
+    }
+}
+
+.pes .modal.confirm-add-credit .modal-body {
+    padding: 30px;
+    text-align: center;
+}
+
+.pes .modal.confirm-add-credit .modal-body .close {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    opacity: .5;
+}
+
+.pes .modal.confirm-add-credit .modal-body .title-confirm {
+    font-size: 18px;
+    font-weight: 300;
+    color: #333333;
+    margin-bottom: 30px;
+}
+
+.pes .modal.confirm-add-credit .modal-body a.button {
+    width: 100px;
+    text-align: center;
+    display: inline-block;
+    padding: 10px 10px;
+    background-color: #f5f5f5;
+    color: #333333;
+}
+
+.pes .modal.confirm-add-credit .modal-body a.button:hover {
+    background-color: #0033a0;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.pes h1,
+.pes h2,
+.pes h3,
+.pes h4,
+.pes h5,
+.pes h6,
+.pes p {
+    margin: 0;
+}
+
+.pes .content-center {
+    clear: both;
+    max-width: 1280px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.pes .tab-content {
+    overflow: visible;
+}
+
+.pes .tab-content>.active {
+    overflow: visible;
+}
+
+.pes .choose-medium {
+    background-color: #fafafa;
+}
+
+.pes .m-t {
+    margin-top: 30px;
+}
+
+.pes .cp {
+    padding: 0;
+}
+
+.pes .cp-l {
+    padding-left: 0;
+}
+
+.pes .cp-r {
+    padding-right: 0;
+}
+
+.pes .pagoexpress {
+    width: 100%;
+    position: relative;
+    font-family: "Open Sans";
+    /* start commented backslash hack \*/
+    /* close commented backslash hack */
+    /*::::::::::::::::::::::::*/
+    /*Pago express empresarial*/
+    /*::::::::::::::::::::::::*/
+}
+
+.pes .pagoexpress .gradient {
+    -webkit-box-shadow: 0px 2px 6px -0.5px rgba(0, 0, 0, 0.11);
+    box-shadow: 0px 2px 6px -0.5px rgba(0, 0, 0, 0.11);
+}
+
+.pes .pagoexpress :focus {
+    outline: 0;
+}
+
+.pes .pagoexpress .clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+.pes .pagoexpress .clearfix {
+    display: inline-block;
+}
+
+.pes .pagoexpress * html .clearfix {
+    height: 1%;
+}
+
+.pes .pagoexpress .clearfix {
+    display: block;
+}
+
+.pes .pagoexpress .show {
+    display: block;
+}
+
+.pes .pagoexpress .hide {
+    display: none;
+}
+
+.pes .pagoexpress .action a,
+.pes .pagoexpress .action input {
+    display: inline-block;
+    width: inherit;
+    padding: 0px 40px;
+    height: inherit;
+    line-height: 40px;
+    border-radius: 50px;
+    font-family: "FS Joey";
+    font-size: 18px;
+    background-color: #E3E829;
+    color: #0033A0;
+}
+
+.pes .pagoexpress-banner {
+    width: 100%;
+    height: auto;
+    background-color: #f5f5f5;
+    color: #555555;
+    text-align: center;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px 0 30px;
+}
+
+.pes .pagoexpress-banner.empty {
+    background-color: #f5f5f5;
+    padding: 15px 0 0px;
+}
+
+.pes .pagoexpress-banner h2 {
+    font-family: "Open Sans";
+    font-size: 30px;
+    color: #0033a0 !important;
+    font-weight: 600;
+    line-height: 20px;
+    font-family: "FS Joey";
+}
+
+.pes .pagoexpress-banner hr {
+    width: 50%;
+    border: 0;
+    height: 2px;
+    text-align: center;
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0)), color-stop(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0)));
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0));
+    background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0));
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0));
+    margin: 15px auto 5px;
+}
+
+.pes .pagoexpress-banner h1 {
+    font-family: "Open Sans";
+    font-size: 15px;
+    line-height: normal;
+    color: #333;
+    font-weight: 400;
+}
+
+.pes .pagoexpress article.user-options {
+    width: 100%;
+    height: auto;
+    padding: 0px 0 60px;
+}
+
+@media (max-width: 768px) {
+    .pes .pagoexpress article.user-options {
+        padding: 30px 0;
+        padding-top: 0;
+    }
+}
+
+.pes .pagoexpress article.user-options .form-consulta .manage {
+    text-align: center;
+    margin: 10px 0;
+    display: none;
+}
+
+@media (max-width: 1200px) {
+    .pes .pagoexpress article.user-options .form-consulta .manage {
+        display: block;
+    }
+}
+
+.pes .pagoexpress article.user-options .form-consulta .manage p {
+    font-size: 13px;
+}
+
+.pes .pagoexpress article.user-options .form-consulta .manage a {
+    font-family: "FS Joey";
+    margin-top: 10px;
+    display: inline-block;
+    color: #0033a0;
+    text-transform: uppercase;
+}
+
+.pes .pagoexpress article.user-options .col-lg-8.col-lg-offset-2 {
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.pes .pagoexpress article.user-options .home {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-display: flex;
+    -o-display: flex;
+    -moz-display: flex;
+}
+
+.pes .pagoexpress article.user-options .btn-responsive-consulta {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .pes .pagoexpress article.user-options .btn-responsive-consulta {
+        display: block;
+        padding: 0;
+        margin-bottom: 30px;
+    }
+    .pes .pagoexpress article.user-options .btn-responsive-consulta a {
+        display: block;
+        width: 350px;
+        margin: 0 auto;
+        height: auto;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        line-height: 15px;
+    }
+    .pes .pagoexpress article.user-options .btn-responsive-consulta a .icon {
+        position: absolute;
+        top: 50%;
+        line-height: 45px;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+    .pes .pagoexpress article.user-options .btn-responsive-consulta a .icon i.fa {
+        font-size: 20px;
+        color: #00aec7;
+    }
+}
+
+.pes .pagoexpress article.user-options .introduction {
+    background-color: #ffffff;
+    border: 1px solid #ebebeb;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.pes .pagoexpress article.user-options .introduction .description {
+        padding: 10px 20px;
+    border-top: 1px solid #ebebeb;
+    background-color: #f9f9f9;
+}
+
+.pes .pagoexpress article.user-options .introduction .description .text {
+    text-align: center;
+}
+
+.pes .pagoexpress article.user-options .introduction .description .text p {
+    font-size: 14px;
+    color: #333333;
+    line-height: 21px;
+}
+
+.pes .pagoexpress article.user-options .introduction .description .lists {
+    background-color: #f9f9f9;
+    border-radius: 50px;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.pes .pagoexpress article.user-options .introduction .description .lists ul {
+    width: 100%;
+    text-align: center;
+    list-style-type: none;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.pes .pagoexpress article.user-options .introduction .description .lists ul.border {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.pes .pagoexpress article.user-options .introduction .description .lists ul li {
+    display: inline-block;
+    *display: inline;
+    /*IE7*/
+    *zoom: 1;
+    /*IE7*/
+}
+
+.pes .pagoexpress article.user-options .introduction .description .lists ul li:last-child {
+    margin-right: 0;
+}
+
+.pes .pagoexpress article.user-options .introduction .description .lists ul li img {
+    width: 37px;
+}
+
+
+.pes .pagoexpress article.user-options .introduction .manage h2, .pes .pagoexpress article.user-options .introduction .manage h1 {
+    font-size: 26px;
+    font-weight: 700;
+    color: #0033a0;
+    font-family: "FS Joey";
+    line-height: 25px;
+}
+
+
+.pes .pagoexpress article.user-options .introduction .manage {
+    padding: 50px 30px 30px 30px;
+}
+
+
+.pes .pagoexpress article.user-options .introduction .manage p {
+    color: #666;
+    font-size: 14px;
+    display: inline-block;
+    max-width: 270px;
+    vertical-align: top;
+    margin-top: 10px;
+}
+
+.pes .pagoexpress article.user-options .introduction .manage .indicador-texto{font-family: arial;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 20px;
+    color: #00aec7;
+}
+
+.pes .pagoexpress article.user-options .introduction .manage a {
+    text-align: left;
+    text-decoration: underline;
+    display: block;
+    color: #0033A0;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: "FS Joey";
+}
+
+.pes .pagoexpress article.user-options .register-c,
+.pes .pagoexpress article.user-options .search-c {
+    text-align: center;
+    background-color: #f9f9f9;
+    border: 1px solid #ebebeb;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 15px;
+}
+
+.icono-info {
+    width: 100px;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.pes .pagoexpress article.user-options .intro-2 .description {
+    padding: 20px 20px;
+}
+
+@media (max-width: 768px) {
+    .pes .pagoexpress article.user-options .register-c,
+    .pes .pagoexpress article.user-options .search-c {
+        border-right: 0;
+    }
+}
+
+.pes .pagoexpress article.user-options .register-c.n-border,
+.pes .pagoexpress article.user-options .search-c.n-border {
+    border-left: 0;
+}
+
+@media (max-width: 420px) {
+    .pes .pagoexpress article.user-options .register-c .title,
+    .pes .pagoexpress article.user-options .search-c .title {
+        padding: 10px 0;
+    }
+}
+
+.pes .pagoexpress article.user-options .register-c .title h3,
+.pes .pagoexpress article.user-options .search-c .title h3 {
+    margin: 20px 0 20px;
+    font-size: 26px;
+    font-weight: 700;
+    color: #0033a0;
+    font-family: "FS Joey";
+}
+
+@media (max-width: 768px) {
+    .pes .pagoexpress article.user-options .register-c .title h3,
+    .pes .pagoexpress article.user-options .search-c .title h3 {
+        width: 100%;
+    }
+}
+
+@media (max-width: 420px) {
+    .pes .pagoexpress article.user-options .register-c .title h3,
+    .pes .pagoexpress article.user-options .search-c .title h3 {
+        font-size: 22px;
+        margin: 0px 0 10px;
+    }
+}
+
+.pes .pagoexpress article.user-options .register-c .content,
+.pes .pagoexpress article.user-options .search-c .content {
+    margin-top: 0 !important;
+    min-height: 256px;
+}
+
+@media (max-width: 768px) {
+    .pes .pagoexpress article.user-options .register-c .content,
+    .pes .pagoexpress article.user-options .search-c .content {
+        width: 100%;
+        margin: 30px 0 0;
+    }
+}
+
+.pes .pagoexpress article.user-options .register-c .content .nav-tabs,
+.pes .pagoexpress article.user-options .search-c .content .nav-tabs {
+    background-color: #ffffff;
+    border: 1px solid #e9e9e9;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.pes .pagoexpress article.user-options .register-c .content .nav-tabs li,
+.pes .pagoexpress article.user-options .search-c .content .nav-tabs li {
+    text-align: center;
+    width: 50%;
+    padding: 4px;
+}
+
+.pes .pagoexpress article.user-options .register-c .content .nav-tabs li a,
+.pes .pagoexpress article.user-options .search-c .content .nav-tabs li a {
+    display: block;
+    color: #333333;
+    font-weight: 400;
+    border: none;
+    font-family: "FS Joey";
+    font-size: 14px;
+    margin: 0;
+    padding: 6px 15px 8px;
+    letter-spacing: -0.1px;
+}
+
+@media (max-width: 768px) {
+    .pes .pagoexpress article.user-options .register-c .content .nav-tabs li a,
+    .pes .pagoexpress article.user-options .search-c .content .nav-tabs li a {
+        font-size: 13px;
+        letter-spacing: -0.3px;
+    }
+}
+
+.pes .pagoexpress article.user-options .register-c .content .nav-tabs li a:hover,
+.pes .pagoexpress article.user-options .search-c .content .nav-tabs li a:hover {
+    border: none;
+    border-radius: 5px;
+}
+
+.pes .pagoexpress article.user-options .register-c .content .nav-tabs li.active a,
+.pes .pagoexpress article.user-options .search-c .content .nav-tabs li.active a {
+    background-color: #00aec7;
+    color: #ffffff;
+    margin: 0;
+    border: none;
+    border-radius: 5px;
+}
+
+.pes .pagoexpress article.user-options .register-c .content .tab-content,
+.pes .pagoexpress article.user-options .search-c .content .tab-content {
+    background-color: transparent;
+}
+
+.pes .pagoexpress article.user-options .register-c .content .socialnetwork a.facebook,
+.pes .pagoexpress article.user-options .register-c .content .socialnetwork a.googlePlus,
+.pes .pagoexpress article.user-options .search-c .content .socialnetwork a.facebook,
+.pes .pagoexpress article.user-options .search-c .content .socialnetwork a.googlePlus {
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    font-weight: 500;
+    display: block;
+    font-size: 13px;
+    text-align: left;
+    position: relative;
+    -webkit-box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.1);
+}
+
+.pes .pagoexpress article.user-options .register-c .content .socialnetwork a.facebook:hover,
+.pes .pagoexpress article.user-options .register-c .content .socialnetwork a.facebook:focus,
+.pes .pagoexpress article.user-options .register-c .content .socialnetwork a.googlePlus:hover,
+.pes .pagoexpress article.user-options .register-c .content .socialnetwork a.googlePlus:focus,
+.pes .pagoexpress article.user-options .search-c .content .socialnetwork a.facebook:hover,
+.pes .pagoexpress article.user-options .search-c .content .socialnetwork a.facebook:focus,
+.pes .pagoexpress article.user-options .search-c .content .socialnetwork a.googlePlus:hover,
+.pes .pagoexpress article.user-options .search-c .content .socialnetwork a.googlePlus:focus {
+    text-decoration: none;
+}
+
+.pes .pagoexpress article.user-options .register-c .content .socialnetwork a.facebook img,
+.pes .pagoexpress article.user-options .register-c .content .socialnetwork a.googlePlus img,
+.pes .pagoexpress article.user-options .search-c .content .socialnetwork a.facebook img,
+.pes .pagoexpress article.user-options .search-c .content .socialnetwork a.googlePlus img {
+    position: absolute;
+    left: 10px;
+    width: 24px;
+    height: 24px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.pes .pagoexpress article.user-options .register-c .content .socialnetwork a.facebook span,
+.pes .pagoexpress article.user-options .register-c .content .socialnetwork a.googlePlus span,
+.pes .pagoexpress article.user-options .search-c .content .socialnetwork a.facebook span,
+.pes .pagoexpress article.user-options .search-c .content .socialnetwork a.googlePlus span {
+    padding-left: 65px;
+}
+
+.pes .pagoexpress article.user-options .register-c .content .socialnetwork a.facebook,
+.pes .pagoexpress article.user-options .search-c .content .socialnetwork a.facebook {
+    background-color: #4267b2;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.pes .pagoexpress article.user-options .register-c .content .socialnetwork a.facebook:focus,
+.pes .pagoexpress article.user-options .search-c .content .socialnetwork a.facebook:focus {
+    background-color: #34508a;
+}
+
+.pes .pagoexpress article.user-options .register-c .content .socialnetwork a.googlePlus,
+.pes .pagoexpress article.user-options .search-c .content .socialnetwork a.googlePlus {
+    background-color: #ffffff;
+    color: #333333;
+}
+
+.pes .pagoexpress article.user-options .register-c .content .socialnetwork a.googlePlus:focus,
+.pes .pagoexpress article.user-options .search-c .content .socialnetwork a.googlePlus:focus {
+    background-color: #f5f5f5;
+}
+
+.pes .pagoexpress article.user-options .register-c .content .lostpassword,
+.pes .pagoexpress article.user-options .search-c .content .lostpassword {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.pes .pagoexpress article.user-options .register-c .content .lostpassword a,
+.pes .pagoexpress article.user-options .search-c .content .lostpassword a {
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    color: #555555;
+    text-decoration: underline;
+}
+
+.pes .pagoexpress article.user-options .register-c .new-account,
+.pes .pagoexpress article.user-options .search-c .new-account {
+    margin: 40px 0;
+    font-size: 13px;
+    color: #333333;
+}
+
+.pes .pagoexpress article.user-options .register-c .new-account a,
+.pes .pagoexpress article.user-options .search-c .new-account a {
+    color: #00aec7;
+}
+
+.pes .pagoexpress article.user-options .register-c .info-sura,
+.pes .pagoexpress article.user-options .search-c .info-sura {
+    color: #555555;
+    font-size: 13px;
+    line-height: normal;
+    padding: 0 50px;
+    text-align: left;
+    opacity: .8;
+}
+
+@media (max-width: 768px) {
+    .pes .pagoexpress article.user-options .register-c .info-sura,
+    .pes .pagoexpress article.user-options .search-c .info-sura {
+        margin-bottom: 50px;
+    }
+}
+
+.pes .pagoexpress article.user-options .sign-up-sv {
+    background-color: #f6f6f6;
+    padding: 20px 10px;
+    margin-top: 20px;
+}
+
+.pes .pagoexpress article.user-options .sign-up-sv h3 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #181818;
+    margin-bottom: 10px;
+}
+
+.pes .pagoexpress article.user-options .sign-up-sv .btn {
+    margin: 20px 0;
+}
+
+.pes .pagoexpress article.screen-default {
+    width: 100%;
+    height: auto;
+    padding: 10px 0;
+}
+
+@media (max-width: 768px) {
+    .pes .pagoexpress article.screen-default {
+        padding: 0 0 30px;
+    }
+}
+
+.pes .pagoexpress article.screen-default .title-section {
+    font-size: 23px;
+    line-height: normal;
+    font-weight: 700;
+    text-align: center;
+    margin: 60px auto;
+    width: 700px;
+}
+
+@media (max-width: 768px) {
+    .pes .pagoexpress article.screen-default .title-section {
+        width: 100%;
+        margin: 30px 0;
+        font-size: 18px;
+        padding: 0 30px;
+    }
+}
+
+.pes .pagoexpress article.screen-default .options-section {
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+.pes .pagoexpress article.screen-default .options-section li {
+    float: left;
+    width: auto;
+    margin-right: 20px;
+}
+
+.pes .pagoexpress article.screen-default .options-section li a {
+    font-size: 14px;
+    color: #0033a0;
+}
+
+@media (max-width: 768px) {
+    .pes .pagoexpress article.screen-default .options-section li {
+        width: 100%;
+        float: left;
+        margin-right: 0;
+        padding: 0 10px;
+        margin-bottom: 10px;
+    }
+    .pes .pagoexpress article.screen-default .options-section li.only-one {
+        width: 100%;
+    }
+    .pes .pagoexpress article.screen-default .options-section li a {
+        font-size: 12px;
+    }
+}
+
+.pes .pagoexpress article.screen-default .content {
+    margin-top: 0 !important;
+}
+
+.pes .pagoexpress article.screen-default .content h6 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.pes .pagoexpress article.screen-default .content h5 {
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 40px;
+}
+
+.pes .pagoexpress article.screen-default .content-table {
+    background-color: #ffffff;
+    border-radius: 2px;
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    .pes .pagoexpress article.screen-default .content-table {
+        padding: 0 0 30px;
+    }
+}
+
+.pes .pagoexpress article.screen-default .content-table .btn.yellow {
+    background-color: #E3E829;
+    color: #0033A0;
+}
+
+.pes .pagoexpress article.screen-default .content-table .btn.yellow.normal {
+    width: auto;
+    padding: 0 50px;
+}
+
+@media (max-width: 768px) {
+    .pes .pagoexpress article.screen-default .content-table .btn.yellow.normal {
+        margin-right: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .pes .pagoexpress article.screen-default .content-table .payments-footer-table {
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .pes .pagoexpress article.screen-default .content-table .payments-footer-table ul {
+        display: inline-block;
+    }
+}
+
+.pes .pagoexpress article.screen-default .content-table .payments-footer-table ul.payments-table-d {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height: 45px;
+    float: right;
+}
+
+@media (max-width: 768px) {
+    .pes .pagoexpress article.screen-default .content-table .payments-footer-table ul.payments-table-d {
+        float: none;
+        height: auto;
+    }
+}
+
+.pes .pagoexpress article.screen-default .content-table .payments-footer-table ul.payments-table-d li {
+    *zoom: 1;
+    /*IE7*/
+    float: left;
+}
+
+.pes .pagoexpress article.screen-default .content-table .payments-footer-table ul.payments-table-d li.icon {
+    width: 47px;
+    height: 45px;
+    position: relative;
+}
+
+.pes .pagoexpress article.screen-default .content-table .payments-footer-table ul.payments-table-d li.icon img {
+    width: 40px;
+    opacity: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateY(-50%) translateX(-50%);
+    -ms-transform: translateY(-50%) translateX(-50%);
+    transform: translateY(-50%) translateX(-50%);
+}
+
+.pes .pagoexpress article.screen-default .content-table .payments-footer-table ul.payments-table-d li.icon:last-child {
+    margin-right: 10px;
+}
+
+.pes .pagoexpress article.screen-default .content-table .payments-footer-table ul.payments-table-d li.title {
+    font-weight: 600;
+    width: auto;
+    height: 45px;
+    padding: 0 10px;
+    line-height: 45px;
+    position: relative;
+}
+
+.pes .pagoexpress article.screen-default .user-dates {
+    list-style-type: none;
+    width: 100%;
+    height: auto;
+    margin: 0 0 40px;
+    padding: 0;
+}
+
+.pes .pagoexpress article.screen-default .user-dates li {
+    width: 50%;
+    height: 50px;
+    float: left;
+    line-height: 50px;
+    font-size: 14px;
+    padding: 0 30px;
+}
+
+@media (max-width: 768px) {
+    .pes .pagoexpress article.screen-default .user-dates li {
+        line-height: normal;
+        padding-top: 5px;
+    }
+}
+
+.pes .pagoexpress article.screen-default .user-dates li:first-child {
+    text-align: right;
+    background-color: rgba(0, 0, 0, 0.03);
+}
+
+.pes .pagoexpress article.screen-default .user-dates li:last-child {
+    font-weight: 600;
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.pes .pagoexpress article.credits-cards {
+    width: 100%;
+    height: auto;
+    padding: 60px 0;
+}
+
+@media (max-width: 768px) {
+    .pes .pagoexpress article.credits-cards {
+        padding: 30px 0;
+    }
+}
+
+.pes .pagoexpress article.credits-cards h3 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #0033a0;
+    text-align: center;
+}
+
+.pes .pagoexpress article.credits-cards h3.green {
+    color: #00a031;
+}
+
+.pes .pagoexpress article.credits-cards h3.red {
+    color: #bb0606;
+}
+
+.pes .pagoexpress article.credits-cards .separated {
+    height: 2px;
+    width: 100%;
+    background-color: #f5f5f5;
+}
+
+.pes .pagoexpress article.credits-cards .list-credits-cc {
+    width: 60%;
+    list-style-type: none;
+    margin: 30px auto;
+    padding: 0;
+}
+
+@media (max-width: 768px) {
+    .pes .pagoexpress article.credits-cards .list-credits-cc {
+        width: 100%;
+    }
+}
+
+.pes .pagoexpress article.credits-cards .list-credits-cc li {
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    position: relative;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.pes .pagoexpress article.credits-cards .list-credits-cc li:hover {
+    background-color: rgba(0, 0, 0, 0.02);
+}
+
+@media (max-width: 768px) {
+    .pes .pagoexpress article.credits-cards .list-credits-cc li {
+        height: auto;
+        line-height: normal;
+        padding: 20px 0;
+    }
+}
+
+.pes .pagoexpress article.credits-cards .list-credits-cc li .number-credit-card {
+    width: 200px;
+    color: #555555;
+    opacity: .6;
+    display: inline-block;
+}
+
+.pes .pagoexpress article.credits-cards .list-credits-cc li .name-credit-card {
+    width: 200px;
+    color: #333333;
+    display: inline-block;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.pes .pagoexpress article.credits-cards .list-credits-cc li .actions-credit-card {
+    width: 50px;
+    color: #555555;
+    opacity: .8;
+    display: inline-block;
+    font-weight: 600;
+}
+
+@media (max-width: 768px) {
+    .pes .pagoexpress article.credits-cards .list-credits-cc li .actions-credit-card {
+        position: absolute;
+        right: 10px;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+}
+
+.pes .pagoexpress article.credits-cards .list-credits-cc li .actions-credit-card a {
+    color: #333333;
+    opacity: .6;
+}
+
+.pes .pagoexpress article.credits-cards .list-credits-cc li .actions-credit-card a:hover {
+    opacity: 1;
+}
+
+.pes .pagoexpress article.credits-cards .list-credits-cc li:first-child {
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.pes .pagoexpress article.credits-cards .options-section {
+    width: 100%;
+    list-style-type: none;
+    margin: 30px 0;
+    padding: 0;
+}
+
+.pes .pagoexpress article.credits-cards .options-section li {
+    float: left;
+    width: auto;
+    margin-right: 20px;
+}
+
+@media (max-width: 768px) {
+    .pes .pagoexpress article.credits-cards .options-section li {
+        width: 100%;
+        float: left;
+        margin-right: 0;
+        padding: 0 10px;
+        margin-bottom: 10px;
+    }
+    .pes .pagoexpress article.credits-cards .options-section li.only-one {
+        width: 100%;
+    }
+    .pes .pagoexpress article.credits-cards .options-section li a {
+        font-size: 12px;
+    }
+}
+
+.pes .pagoexpress article.credits-cards .list-actions-cc {
+    list-style-type: none;
+    margin: 20px 0 0;
+    padding: 0;
+    text-align: center;
+}
+
+.pes .pagoexpress article.credits-cards .list-actions-cc li {
+    width: auto;
+    text-align: center;
+    display: inline-block;
+}
+
+.pes .pagoexpress article.credits-cards .list-actions-cc li i.fa {
+    padding-right: 10px;
+}
+
+@media (max-width: 768px) {
+    .pes .pagoexpress article.credits-cards .list-actions-cc li {
+        width: 50%;
+        padding: 0 10px;
+        float: left;
+    }
+    .pes .pagoexpress article.credits-cards .list-actions-cc li a {
+        font-size: 10px;
+    }
+    .pes .pagoexpress article.credits-cards .list-actions-cc li:first-child {
+        width: 100%;
+    }
+    .pes .pagoexpress article.credits-cards .list-actions-cc li:last-child {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+}
+
+.pes .pagoexpress article.payment-method {
+    /* width: 100%;
+        height: auto;
+        padding: 60px 0; */
+}
+
+@media (max-width: 768px) {
+    .pes .pagoexpress article.payment-method {
+        padding: 0px 0;
+    }
+}
+
+.pes .pagoexpress article.payment-method .container {
+    margin: 0 auto;
+    width: 670px;
+}
+
+.pes .pagoexpress article.payment-method h4 {
+    font-size: 23px;
+    font-weight: 700;
+    margin: 30px 0 20px;
+}
+
+.pes .pagoexpress article.payment-method .resumen-body table thead th {
+    width: 30%;
+}
+
+.pes .pagoexpress article.payment-method .resumen-body table thead th .text-right {
+    text-align: right;
+}
+
+.pes .pagoexpress article.payment-method .resumen-body table thead th:first-child {
+    width: 30%;
+}
+
+.pes .pagoexpress article.payment-method .resumen-body table thead th:last-child {
+    width: 10%;
+}
+
+.pes .pagoexpress article.payment-method .resumen-body table tbody tr td a i {
+    color: #f65c5c;
+    font-size: 20px;
+    position: relative;
+    top: 7px;
+}
+
+.pes .pagoexpress article.payment-method .resumen-body table tbody tr.total td {
+    font-weight: 700;
+}
+
+.pes .pagoexpress article.payment-method .title-method {
+    font-size: 20px;
+    font-weight: 700;
+    width: 100%;
+    text-align: left;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: #333;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+    .pes .pagoexpress article.payment-method .title-method {
+        margin-top: 0;
+    }
+}
+
+.pes .pagoexpress article.payment-method .register-card-new {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.pes .pagoexpress article.payment-method .register-card-new a.btn.blue {
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+}
+
+.pes .pagoexpress article.payment-method .register-card-new a.btn.blue i.fa {
+    padding-right: 10px;
+}
+
+.pes .pagoexpress article.payment-method .actions-credit-card {
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.pes .pagoexpress article.payment-method .actions-credit-card a.btn.yellow {
+    width: auto;
+    display: inline-block;
+    margin: 20px 0;
+}
+
+.pes .pagoexpress article.payment-method .actions-credit-card a.btn.yellow i.fa {
+    padding-right: 10px;
+}
+
+.pes .pagoexpress article.payment-method .message-info {
+    width: 100%;
+}
+
+.pes .pagoexpress article.payment-method .message-info.blue {
+    margin-top: 0;
+}
+
+.pes .pagoexpress article.payment-method .message-info.blue .title {
+    margin-bottom: 0;
+}
+
+.pes .pagoexpress article.payment-method .message-info.blue .title a.btn.normal {
+    margin-left: 10px;
+    width: auto;
+    display: inline-block;
+}
+
+.pes .pagoexpress article.payment-method .message-info.blue .title a.btn.normal i.fa {
+    padding-right: 10px;
+}
+
+.pes .pagoexpress article.payment-method .list-my-credits-cards {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.pes .pagoexpress article.payment-method .list-my-credits-cards li {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+}
+
+@media (max-width: 768px) {
+    .pes .pagoexpress article.payment-method .list-my-credits-cards li {
+        height: 130px;
+        padding: 20px 10px;
+        background-color: #f5f5f5;
+        display: block;
+        margin-bottom: 10px;
+        border-bottom: 0;
+    }
+}
+
+.pes .pagoexpress article.payment-method .list-my-credits-cards li .date-default {
+    width: 25%;
+    float: left;
+}
+
+@media (max-width: 768px) {
+    .pes .pagoexpress article.payment-method .list-my-credits-cards li .date-default {
+        width: 50%;
+        float: left;
+    }
+}
+
+.pes .pagoexpress article.payment-method .list-my-credits-cards li .date-default strong {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.pes .pagoexpress article.payment-method .list-payment-method {
+    list-style-type: none;
+    margin: 0 0 20px;
+    padding: 0;
+}
+
+@media (max-width: 768px) {
+    .pes .pagoexpress article.payment-method .list-payment-method {
+        margin: 0 0 20px;
+    }
+}
+
+.pes .pagoexpress article.payment-method .list-payment-method li {
+    width: 33.333333333%;
+    height: 100px;
+    background-color: #f5f5f5;
+    text-align: center;
+    float: left;
+    border: 4px solid #ffffff;
+}
+
+@media (max-width: 768px) {
+    .pes .pagoexpress article.payment-method .list-payment-method li {
+        height: 130px;
+    }
+}
+
+.pes .pagoexpress article.payment-method .list-payment-method li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #555555;
+    padding: 20px;
+    position: relative;
+}
+
+.pes .pagoexpress article.payment-method .list-payment-method li a i.fa {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.pes .pagoexpress article.payment-method .list-payment-method li a .info-abs {
+    width: 23px;
+    height: 23px;
+    line-height: 23px;
+    text-align: center;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    border-radius: 50%;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+.pes .pagoexpress article.payment-method .list-payment-method li a .info-abs i.fa {
+    font-size: 19px;
+    color: rgba(0, 0, 0, 0.1);
+}
+
+.pes .pagoexpress article.payment-method .list-payment-method li a img {
+    width: 55px;
+    margin-bottom: 10px;
+}
+
+.pes .pagoexpress article.payment-method .list-payment-method li a .name-credit {
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.pes .pagoexpress article.payment-method .list-payment-method li:hover {
+    background-color: #ececec;
+}
+
+.pes .pagoexpress article.payment-method .list-payment-method li:hover a {
+    color: #404040;
+    text-decoration: none;
+}
+
+.pes .pagoexpress article.payment-method .list-payment-method li:hover a .info-abs {
+    color: #ffffff;
+}
+
+.pes .pagoexpress article.payment-method .list-payment-method .info-abs {
+    position: absolute;
+    right: 0px;
+    top: 11px;
+}
+
+.pes .pagoexpress article.payment-method .list-payment-method .info-abs i {
+    font-size: 18px;
+    color: #00aec7;
+}
+
+.pes .pagoexpress article.payment-method .list-payment-method .btn {
+    float: right;
+    width: inherit;
+    margin-top: 40px;
+}
+
+.pes .pagoexpress article.payment-method .list-payment-method label.control {
+    text-transform: initial;
+    font-size: 14px;
+    margin-bottom: 0;
+    height: inherit;
+}
+
+@media (max-width: 768px) {
+    .pes .pagoexpress article.payment-method .list-payment-method label.control {
+        margin-bottom: 20px;
+    }
+}
+
+.pes .pagoexpress article.payment-method .list-payment-method label.control img {
+    margin: 0 10px;
+}
+
+.pes .pagoexpress article.payment-method .list-payment-method label .control__indicator {
+    top: 11px !important;
+}
+
+.pes .pagoexpress article.payment-method .list-payment-method .nav-tabs {
+    border: none;
+}
+
+.pes .pagoexpress article.payment-method .list-payment-method .nav-tabs li {
+    background-color: transparent;
+    border: none;
+    width: 189.8px;
+    float: left;
+    height: 108px;
+    margin-right: 35px;
+    position: relative;
+}
+
+.pes .pagoexpress article.payment-method .list-payment-method .nav-tabs li.active a {
+    background-color: #f0f4eb;
+    border: 1px solid #dbf5b9;
+}
+
+.pes .pagoexpress article.payment-method .list-payment-method .nav-tabs li.active i {
+    display: block;
+}
+
+.pes .pagoexpress article.payment-method .list-payment-method .nav-tabs li:last-child {
+    margin-right: 0;
+}
+
+.pes .pagoexpress article.payment-method .list-payment-method .nav-tabs li i {
+    display: none;
+    color: #dbf5b9;
+    font-size: 30px;
+    position: absolute;
+    left: 50%;
+    margin-left: -8.5px;
+    bottom: -19px;
+}
+
+.pes .pagoexpress article.payment-method .list-payment-method .nav-tabs li a {
+    background-color: #fff;
+    border: 1px solid #e4e4e4;
+    padding: 10px 20px;
+    border-radius: 3px;
+}
+
+.pes .pagoexpress article.payment-method .list-payment-method .nav-tabs li a img {
+    width: initial;
+}
+
+.pes .pagoexpress article.payment-method .list-payment-method .nav-tabs li a p {
+    font-size: 14px;
+    font-weight: bold;
+    color: #343434;
+    font-family: "Open Sans";
+    line-height: 16px;
+}
+
+.pes .pagoexpress article.payment-method .list-payment-method .tab-content {
+    background-color: transparent;
+    margin-top: 30px;
+}
+
+.pes .pagoexpress article.payment-method .list-payment-method .credit-card h3 {
+    font-size: 16px;
+    color: #292929;
+    font-weight: 700;
+    padding: 20px 0;
+}
+
+.pes .pagoexpress article.payment-method .list-payment-method .credit-card .btn-pay .btn {
+    padding: 0 20px;
+    margin-top: 10px;
+}
+
+.pes .pagoexpress article.payment-method .list-payment-method .row-card {
+    padding: 10px 0;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.pes .pagoexpress article.payment-method .list-payment-method .row-card input,
+.pes .pagoexpress article.payment-method .list-payment-method .row-card select {
+    margin: 0;
+}
+
+.pes .pagoexpress article.payment-method .list-payment-method .row-card .card-number {
+    font-size: 17px;
+    margin-top: 9px;
+    text-align: center;
+}
+
+.pes .pagoexpress article.payment-method .list-payment-method .row-card .logo {
+    margin: 7px 0;
+}
+
+.pes .pagoexpress article.payment-method .list-payment-method .row-card .name p {
+    margin: 11px 0;
+}
+
+.pes .pagoexpress article.payment-method .list-payment-method .row-card .dues label,
+.pes .pagoexpress article.payment-method .list-payment-method .row-card .cvv label {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.pes .pagoexpress article.payment-method .list-payment-method .row-card .btn-question {
+    position: absolute;
+    top: 4px;
+    background-color: transparent;
+    border: none;
+    right: 10px;
+}
+
+.pes .pagoexpress article.payment-method .list-payment-method .row-card .btn-question i {
+    font-size: 20px;
+    color: #9c9c9c;
+}
+
+.pes .pagoexpress article.payment-method .list-payment-method .row-card input,
+.pes .pagoexpress article.payment-method .list-payment-method .row-card select {
+    border: 1px solid #d8d8d8;
+    height: 44px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    width: 100%;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    padding: 0 10px;
+}
+
+.pes .pagoexpress article.payment-method .list-payment-method .row-card .dropup.card {
+    position: absolute;
+    top: 0;
+    right: -10px;
+}
+
+.pes .pagoexpress article.payment-method .list-payment-method .row-card .dropup.card.open:before {
+    content: " ";
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #d8d8d8;
+    position: absolute;
+    left: -42px;
+    top: -2px;
+    z-index: 2000;
+}
+
+.pes .pagoexpress article.payment-method .list-payment-method .row-card .dropup.card .dropdown-menu {
+    width: 300px;
+    position: absolute;
+    left: 50%;
+    margin-left: -180px;
+    background-color: #f2f2f2;
+}
+
+.pes .pagoexpress article.payment-method .list-payment-method .row-card .dropup.card .dropdown-menu .title {
+    border-bottom: 1px solid #d0d0d0;
+    padding: 4px 10px 10px;
+}
+
+.pes .pagoexpress article.payment-method .list-payment-method .row-card .dropup.card .dropdown-menu .title h3 {
+    font-size: 16px;
+    text-align: center;
+    padding: 0;
+    font-weight: 400;
+}
+
+.pes .pagoexpress article.payment-method .list-payment-method .row-card .dropup.card .dropdown-menu .body {
+    padding: 10px 0px;
+}
+
+.pes .pagoexpress article.payment-method .list-payment-method .row-card .dropup.card .dropdown-menu .body p {
+    font-size: 13px;
+    color: #777777;
+}
+
+.pes .pagoexpress article.payment-method .list-payment-method .pay-another .btn-other {
+    padding: 20px 0 30px;
+}
+
+.pes .pagoexpress article.payment-method .list-payment-method .pay-another .btn-other a {
+    position: relative;
+    font-size: 16px;
+    color: #6d6d6d;
+    text-decoration: underline;
+    padding-left: 55px;
+}
+
+.pes .pagoexpress article.payment-method .list-payment-method .pay-another .btn-other a i {
+    position: absolute;
+    color: #3083d6;
+    left: 15px;
+    font-size: 24px;
+}
+
+.pes .pagoexpress article.payment-method .list-payment-method .pay-another .form-card {
+    background-color: #fff;
+    border-radius: 3px;
+    border: 1px solid #e4e4e4;
+    padding: 30px 15px 20px;
+    position: relative;
+}
+
+.pes .pagoexpress article.payment-method .list-payment-method .pay-another .form-card .arrow {
+    position: absolute;
+    top: -17px;
+    left: 117px;
+}
+
+.pes .pagoexpress article.payment-method .list-payment-method .pay-another .form-card .row {
+    margin: 0;
+}
+
+.pes .pagoexpress article.payment-method .list-payment-method .pay-another .form-card img {
+    margin: 6px 0;
+}
+
+.pes .pagoexpress article.payment-method .list-payment-method .pay-another .form-card .actions .btn {
+    margin: 0;
+    float: none;
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.pes .pagoexpress article.payment-method .list-payment-method .pay-another .form-card .form-check {
+    text-align: center;
+    margin: 20px;
+}
+
+.pes .pagoexpress article.payment-method .list-payment-method .pay-another .form-card .form-check input {
+    height: inherit;
+    width: inherit;
+}
+
+.pes .pagoexpress article.payment-method .list-payment-method .pay-another .form-card .form-check label {
+    font-weight: 500;
+    display: inline-block;
+    width: inherit;
+}
+
+.pes .pagoexpress article.payment-method .list-payment-method .pay-another .row-card {
+    padding: 0;
+    border: none;
+}
+
+.pes .pagoexpress article.payment-method .list-payment-method .pay-another label {
+    margin: 7px 0;
+    font-size: 14px;
+}
+
+.pes .pagoexpress article.payment-method .list-payment-method .pay-another input,
+.pes .pagoexpress article.payment-method .list-payment-method .pay-another select {
+    height: 40px;
+    border-radius: 2px;
+    border: 1px solid #e4e4e4;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    line-height: inherit;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 0;
+    color: #757575;
+    font-size: 14px;
+}
+
+.pes .pagoexpress article.payment-method .list-payment-method .pay-another .separate {
+    font-size: 18px;
+    text-align: center;
+    padding: 7px 12px;
+    float: left;
+}
+
+.pes .pagoexpress article.payment-method .resumen-header {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    background-color: #0033a0;
+    color: #ffffff;
+    padding: 0 20px;
+}
+
+@media (max-width: 768px) {
+    .pes .pagoexpress article.payment-method .resumen-header {
+        margin-top: 20px;
+    }
+}
+
+.pes .pagoexpress article.payment-method .resumen-body .user-list-sura {
+    width: 100%;
+    height: 40px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.pes .pagoexpress article.payment-method .resumen-body .user-list-sura li {
+    width: 50%;
+    height: 40px;
+    line-height: 40px;
+    float: left;
+    font-size: 12px;
+    opacity: .8;
+}
+
+.pes .pagoexpress article.payment-method .resumen-body .user-list-sura li:last-child {
+    font-weight: 700;
+    text-align: right;
+}
+
+.pes .pagoexpress article.payment-method .several-cards {
+    background-color: #fff;
+    border-radius: 3px;
+    border: 1px solid #e4e4e4;
+    padding: 20px 15px 20px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.pes .pagoexpress article.payment-method .several-cards .arrow {
+    position: absolute;
+    top: -11px;
+    left: 65px;
+}
+
+.pes .pagoexpress article.payment-method .several-cards label.control {
+    line-height: 22px;
+    padding-left: 33px;
+    text-transform: inherit;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.pes .pagoexpress article.payment-method .several-cards .alert {
+    margin: 20px 0 0 0;
+    padding: 10px;
+}
+
+.pes .pagoexpress article.comprobante {
+    width: 100%;
+    height: auto;
+    padding: 0 0 60px;
+}
+
+@media (max-width: 768px) {
+    .pes .pagoexpress article.comprobante {
+        padding: 20px 0;
+    }
+}
+
+.pes .pagoexpress article.comprobante .alert.alert-success,
+.pes .pagoexpress article.comprobante .alert.alert-warning,
+.pes .pagoexpress article.comprobante .alert.alert-danger {
+    padding: 11px 30px 20px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 15px;
+    position: relative;
+}
+
+.pes .pagoexpress article.comprobante .alert.alert-success strong,
+.pes .pagoexpress article.comprobante .alert.alert-warning strong,
+.pes .pagoexpress article.comprobante .alert.alert-danger strong {
+    font-weight: 600;
+}
+
+@media (max-width: 768px) {
+    .pes .pagoexpress article.comprobante .alert.alert-success,
+    .pes .pagoexpress article.comprobante .alert.alert-warning,
+    .pes .pagoexpress article.comprobante .alert.alert-danger {
+        padding-top: 80px;
+    }
+}
+
+.pes .pagoexpress article.comprobante .alert.alert-success i.fa,
+.pes .pagoexpress article.comprobante .alert.alert-warning i.fa,
+.pes .pagoexpress article.comprobante .alert.alert-danger i.fa {
+    padding-right: 10px;
+    font-size: 40px;
+    margin-top: -10px;
+    -webkit-transform: translateY(8px);
+    -ms-transform: translateY(8px);
+    transform: translateY(8px);
+}
+
+@media (max-width: 768px) {
+    .pes .pagoexpress article.comprobante .alert.alert-success i.fa,
+    .pes .pagoexpress article.comprobante .alert.alert-warning i.fa,
+    .pes .pagoexpress article.comprobante .alert.alert-danger i.fa {
+        margin-top: 0;
+        top: 20px;
+        position: absolute;
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        transform: translateX(-50%);
+    }
+}
+
+.pes .pagoexpress article.comprobante .alert.alert-warning {
+    color: #c2c512;
+    background-color: #fdffd6;
+    border-color: #f6f93f;
+}
+
+.pes .pagoexpress article.comprobante .content-comprobante {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.pes .pagoexpress article.comprobante .content-comprobante ul.date-comp {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.pes .pagoexpress article.comprobante .content-comprobante ul.date-comp li {
+    width: 50%;
+    font-weight: 600;
+    font-size: 16px;
+    float: left;
+    /* @media (max-width: 768px){
+                  font-size: 12px;
+                } */
+}
+
+.pes .pagoexpress article.comprobante .content-comprobante ul.date-comp li:last-child {
+    text-align: right;
+}
+
+.pes .pagoexpress article.comprobante .content-comprobante ul.date-comp li:first-child {
+    text-align: left;
+}
+
+.pes .pagoexpress article.comprobante .content-comprobante .principal-dates,
+.pes .pagoexpress article.comprobante .content-comprobante .other-dates {
+    background-color: #f5f5f5;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.pes .pagoexpress article.comprobante .content-comprobante .principal-dates:after,
+.pes .pagoexpress article.comprobante .content-comprobante .other-dates:after {
+    clear: both;
+    content: '';
+}
+
+.pes .pagoexpress article.comprobante .content-comprobante .principal-dates.transparent,
+.pes .pagoexpress article.comprobante .content-comprobante .other-dates.transparent {
+    background-color: transparent;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding-bottom: 40px;
+}
+
+.pes .pagoexpress article.comprobante .content-comprobante .principal-dates .title-dat,
+.pes .pagoexpress article.comprobante .content-comprobante .other-dates .title-dat {
+    font-weight: 700;
+    font-size: 15px;
+    margin-bottom: 0;
+}
+
+.pes .pagoexpress article.comprobante .content-comprobante .principal-dates .title-dat.mrg-30p,
+.pes .pagoexpress article.comprobante .content-comprobante .other-dates .title-dat.mrg-30p {
+    margin-top: 30px;
+}
+
+.pes .pagoexpress article.comprobante .content-comprobante .principal-dates .dat-p,
+.pes .pagoexpress article.comprobante .content-comprobante .other-dates .dat-p {
+    font-weight: 400;
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+.pes .pagoexpress article.comprobante .content-comprobante .principal-dates .dat-p:after,
+.pes .pagoexpress article.comprobante .content-comprobante .other-dates .dat-p:after {
+    clear: both;
+    content: '';
+}
+
+.pes .pagoexpress article.comprobante .content-comprobante .principal-dates .dat-p strong,
+.pes .pagoexpress article.comprobante .content-comprobante .other-dates .dat-p strong {
+    font-weight: 600;
+}
+
+.pes .pagoexpress article.comprobante .content-comprobante .principal-dates .dat-p span.warning,
+.pes .pagoexpress article.comprobante .content-comprobante .other-dates .dat-p span.warning {
+    color: #c2c512;
+}
+
+.pes .pagoexpress article.comprobante .content-comprobante .principal-dates .dat-p span.danger,
+.pes .pagoexpress article.comprobante .content-comprobante .other-dates .dat-p span.danger {
+    color: #a94442;
+}
+
+.pes .pagoexpress article.comprobante .content-comprobante .resumen-pago {
+    padding: 20px;
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    .pes .pagoexpress article.comprobante .content-comprobante .resumen-pago {
+        padding: 0;
+    }
+}
+
+.pes .pagoexpress article.comprobante .content-comprobante .resumen-pago .title-dat {
+    font-weight: 700;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.pes .pagoexpress article.comprobante .content-comprobante .resumen-pago .title-dat.mrg-30p {
+    margin-top: 30px;
+}
+
+.pes .pagoexpress article.comprobante .content-comprobante .resumen-pago:after {
+    clear: both;
+    content: '';
+}
+
+.pes .pagoexpress article.comprobante .prev-home {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.pes .pagoexpress article.comprobante .prev-home a.btn.blue {
+    display: inline-block;
+    width: auto;
+    margin: 30px auto;
+    float: none;
+}
+
+.pes .pagoexpress article.comprobante .prev-home:after {
+    clear: both;
+    content: '';
+}
+
+.pes .pagoexpress article.comprobante .info-faq {
+    width: 100%;
+    line-height: normal;
+    text-align: left;
+    margin: 20px auto 0;
+    padding: 0;
+    color: #333333;
+    position: relative;
+}
+
+@media (max-width: 768px) {
+    .pes .pagoexpress article.comprobante .info-faq {
+        width: 100%;
+        padding: 0 10px;
+    }
+}
+
+.pes .pagoexpress article.comprobante .info-faq .icon-faq {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    border: 2px solid #0033a0;
+    border-radius: 50%;
+    color: #0033a0;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    padding: 10px;
+}
+
+.pes .pagoexpress article.comprobante .info-faq .icon-faq i {
+    font-size: 18px;
+}
+
+.pes .pagoexpress article.comprobante .info-faq .descrip-faq {
+    width: 100%;
+    font-weight: 500;
+    font-size: 14px;
+    padding-left: 60px;
+}
+
+.pes .pagoexpress article.comprobante .info-faq .descrip-faq strong {
+    font-weight: 700;
+}
+
+.pes .pagoexpress article.comprobante .info-faq:after {
+    clear: both;
+    content: '';
+}
+
+.pes .pagoexpress article.history-pay {
+    width: 100%;
+    height: auto;
+    padding: 10px 0 30px;
+}
+
+@media (max-width: 768px) {
+    .pes .pagoexpress article.history-pay {
+        padding: 30px 0;
+    }
+}
+
+.pes .pagoexpress article.history-pay h3 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #0033a0;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+    .pes .pagoexpress article.history-pay h3 {
+        /* margin-bottom: 30px; */
+    }
+}
+
+.pes .pagoexpress article.history-pay .range-date {
+    width: auto;
+    height: auto;
+    margin-top: 40px;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .pes .pagoexpress article.history-pay .range-date {
+        margin-bottom: 20px;
+    }
+}
+
+.pes .pagoexpress article.history-pay .range-date p {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 3px 0;
+}
+
+.pes .pagoexpress article.history-pay .range-date a.btn.yellow {
+    height: 30px;
+    line-height: 30px;
+}
+
+.pes .pagoexpress article.history-pay .range-date:after {
+    clear: both;
+    content: '';
+}
+
+.pes .pagoexpress article.history-pay .pagination {
+    margin: 0;
+    float: right;
+}
+
+.pes .pagoexpress article.history-pay .pagination>li {
+    font-size: 12px;
+}
+
+.pes .pagoexpress article.history-pay .prev-home {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.pes .pagoexpress article.history-pay .prev-home a.btn.blue {
+    display: inline-block;
+    width: auto;
+    margin: 0 auto;
+    float: none;
+}
+
+.pes .pagoexpress article.history-pay .prev-home:after {
+    clear: both;
+    content: '';
+}
+
+.pes .pagoexpress article.history-pay .info-footer {
+    width: 100%;
+    margin: 50px auto;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    color: #555555;
+}
+
+.pes .pagoexpress article.history-pay .info-footer:after {
+    clear: both;
+    content: '';
+}
+
+.pes .pagoexpress article .form-group .date input[type="text"] {
+    margin-bottom: 0;
+    padding: 0 10px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.pes .pagoexpress article .form-group .date .input-group-addon {
+    -webkit-box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.1);
+    border: 0;
+}
+
+.pes .pagoexpress article .message-info {
+    width: 80%;
+    height: auto;
+    padding: 30px;
+    margin: 0 auto;
+    background-color: #f5f5f5;
+    position: relative;
+}
+
+.pes .pagoexpress article .message-info.blue {
+    background-color: #eef4ff;
+    border-radius: 10px;
+    padding: 30px 0;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.pes .pagoexpress article .message-info.blue .title {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: normal;
+    color: #0033a0;
+    margin-bottom: 0;
+}
+
+.pes .pagoexpress article .message-info.green {
+    background-color: #efffee;
+    border-radius: 10px;
+    padding: 30px 0;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.pes .pagoexpress article .message-info.green .title {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: normal;
+    color: #03903b;
+    margin-bottom: 0;
+}
+
+.pes .pagoexpress article .message-info.red {
+    background-color: #ffeeee;
+    border-radius: 10px;
+    padding: 30px 0;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.pes .pagoexpress article .message-info.red .title {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: normal;
+    color: #900303;
+    margin-bottom: 0;
+}
+
+.pes .pagoexpress article .message-info.transparent {
+    background-color: transparent;
+    border-radius: 10px;
+    padding: 30px 0;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.pes .pagoexpress article .message-info.transparent .title {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: normal;
+    color: #555555;
+    padding-left: 70px;
+    margin-bottom: 0;
+}
+
+.pes .pagoexpress article .message-info.transparent .icon {
+    position: absolute;
+    top: 30px;
+    left: 40px;
+}
+
+.pes .pagoexpress article .message-info.transparent .icon i.fa {
+    font-size: 40px;
+    color: #555555;
+}
+
+@media (max-width: 768px) {
+    .pes .pagoexpress article .message-info.transparent .icon {
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+    .pes .pagoexpress article .message-info.transparent .title {
+        padding-left: 0;
+    }
+}
+
+.pes .pagoexpress article .message-info .title {
+    font-weight: 700;
+    font-size: 17px;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+
+.pes .pagoexpress article .message-info .descrip {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.pes .pagoexpress article .message-info a.btn.yellow {
+    margin-top: 15px;
+}
+
+@media (max-width: 768px) {
+    .pes .pagoexpress article .message-info a.btn.yellow {
+        width: 100%;
+    }
+}
+
+.pes .pagoexpress article .pay-secure {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.pes .pagoexpress article .pay-secure h4 {
+    font-size: 12px;
+    font-weight: 300;
+    margin: 0;
+}
+
+.pes .pagoexpress article .pay-secure img {
+    width: 100px;
+    margin-top: 10px;
+}
+
+.pes .pagoexpress h5 {
+    font-size: 13px;
+    font-weight: 500;
+    color: #555555;
+}
+
+.pes .pagoexpress .hr-log {
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+    display: block;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.pes .pagoexpress .hr-log.normal {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.pes .pagoexpress .hr-log .txt-or {
+    margin-top: -6px;
+    width: 20px;
+    height: 10px;
+    line-height: 10px;
+    text-align: center;
+    background-color: #f5f5f5;
+    color: #555555;
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.pes .pagoexpress input[type='text'],
+.pes .pagoexpress input[type="password"] {
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    padding: 0 20px;
+    border: 0;
+    font-size: 14px;
+    -webkit-box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    border-radius: 2px;
+}
+
+.pes .pagoexpress input[type='text'].cvv,
+.pes .pagoexpress input[type="password"].cvv {
+    width: 45px;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 5px;
+    margin-bottom: 0;
+}
+
+.pes .pagoexpress input[type='text']::-webkit-input-placeholder,
+.pes .pagoexpress input[type="password"]::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.pes .pagoexpress input[type='text']::-moz-placeholder,
+.pes .pagoexpress input[type="password"]::-moz-placeholder {
+    /* Firefox 19+ */
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.pes .pagoexpress input[type='text']:-ms-input-placeholder,
+.pes .pagoexpress input[type="password"]:-ms-input-placeholder {
+    /* IE 10+ */
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.pes .pagoexpress input[type='text']:-moz-placeholder,
+.pes .pagoexpress input[type="password"]:-moz-placeholder {
+    /* Firefox 18- */
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.pes .pagoexpress input[type='text']:hover,
+.pes .pagoexpress input[type="password"]:hover {
+    -webkit-box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.2);
+}
+
+.pes .pagoexpress input[type='text']:focus,
+.pes .pagoexpress input[type="password"]:focus {
+    -webkit-box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.4);
+}
+
+.pes .pagoexpress select {
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    padding: 0 20px;
+    border: 0;
+    font-size: 14px;
+    -webkit-box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    border-radius: 2px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-position: right 50%;
+    background-repeat: no-repeat;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAMCAYAAABSgIzaAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBNYWNpbnRvc2giIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6NDZFNDEwNjlGNzFEMTFFMkJEQ0VDRTM1N0RCMzMyMkIiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6NDZFNDEwNkFGNzFEMTFFMkJEQ0VDRTM1N0RCMzMyMkIiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo0NkU0MTA2N0Y3MUQxMUUyQkRDRUNFMzU3REIzMzIyQiIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo0NkU0MTA2OEY3MUQxMUUyQkRDRUNFMzU3REIzMzIyQiIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PuGsgwQAAAA5SURBVHjaYvz//z8DOYCJgUxAf42MQIzTk0D/M+KzkRGPoQSdykiKJrBGpOhgJFYTWNEIiEeAAAMAzNENEOH+do8AAAAASUVORK5CYII=);
+}
+
+.pes .pagoexpress select.number-cuotes {
+    width: 65px;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 5px;
+    margin-bottom: 0;
+}
+
+.pes .pagoexpress .steps {
+    margin: 0 auto;
+    width: 470px;
+    position: relative;
+    margin-top: -14px;
+}
+
+@media (max-width: 500px) {
+    .pes .pagoexpress .steps {
+        margin-top: -10px;
+    }
+}
+
+.pes .pagoexpress .steps .progress {
+    margin: 0;
+    position: absolute;
+    width: 360px;
+    left: 50%;
+    margin-left: -180px;
+    top: 12px;
+    height: 2px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background-color: #dfdfdf;
+}
+
+@media (max-width: 500px) {
+    .pes .pagoexpress .steps .progress {
+        top: 8px;
+    }
+}
+
+.pes .pagoexpress .steps .progress .progress-bar {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    /* background-color: #00aec7; */
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#00aec7+71,00aec7+71,ffffff+100 */
+    background: #00aec7;
+    /* Old browsers */
+    background: -moz-linear-gradient(left, #00aec7 71%, #00aec7 71%, #dfdfdf 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #00aec7 71%, #00aec7 71%, #dfdfdf 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: -webkit-gradient(linear, left top, right top, color-stop(71%, #00aec7), color-stop(71%, #00aec7), to(#dfdfdf));
+    background: -o-linear-gradient(left, #00aec7 71%, #00aec7 71%, #dfdfdf 100%);
+    background: linear-gradient(to right, #00aec7 71%, #00aec7 71%, #dfdfdf 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#00aec7', endColorstr='#dfdfdf', GradientType=1);
+    /* IE6-9 */
+}
+
+.pes .pagoexpress .steps ul {
+    text-align: center;
+    padding: 0;
+    float: left;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.pes .pagoexpress .steps ul li {
+    list-style: none;
+    text-align: center;
+    width: 25%;
+    float: left;
+}
+
+.pes .pagoexpress .steps ul li a {
+    position: relative;
+    display: block;
+    padding-top: 30px;
+    text-decoration: none;
+}
+
+@media (max-width: 500px) {
+    .pes .pagoexpress .steps ul li a {
+        padding-top: 20px;
+    }
+}
+
+.pes .pagoexpress .steps ul li a i {
+    width: 26px;
+    height: 26px;
+    border: 2px solid #ddd;
+    position: absolute;
+    left: 50%;
+    margin-left: -13px;
+    top: 0;
+    border-radius: 50%;
+    text-indent: -9999px;
+    background-color: white;
+}
+
+@media (max-width: 500px) {
+    .pes .pagoexpress .steps ul li a i {
+        width: 18px;
+        height: 18px;
+        margin-left: -9px;
+    }
+}
+
+.pes .pagoexpress .steps ul li a p {
+    font-size: 13px;
+    color: #5d5d5d;
+    line-height: 15px;
+}
+
+.pes .pagoexpress .steps ul li.ok i:before {
+    content: "";
+    width: 18px;
+    height: 18px;
+    background-color: #00aec7;
+    position: absolute;
+    border-radius: 50%;
+    left: 50%;
+    margin-left: -9px;
+    top: 50%;
+    margin-top: -9px;
+}
+
+@media (max-width: 500px) {
+    .pes .pagoexpress .steps ul li.ok i:before {
+        width: 10px;
+        height: 10px;
+        margin-left: -5px;
+        margin-top: -5px;
+    }
+}
+
+.pes .pagoexpress .steps ul li.ok p {
+    font-weight: bold;
+}
+
+.pes .pagoexpress .steps ul li.active i:before {
+    content: "";
+    width: 18px;
+    height: 18px;
+    background-color: #dfdfdf;
+    position: absolute;
+    border-radius: 50%;
+    left: 50%;
+    margin-left: -9px;
+    top: 50%;
+    margin-top: -9px;
+}
+
+@media (max-width: 500px) {
+    .pes .pagoexpress .steps ul li.active i:before {
+        width: 10px;
+        height: 10px;
+        margin-left: -5px;
+        margin-top: -5px;
+    }
+}
+
+.pes .pagoexpress .steps ul li.active p {
+    font-weight: bold;
+}
+
+.pes .pagoexpress.business article.user-options {
+    margin-top: 10px;
+}
+
+.pes .pagoexpress.business article.user-options .search-c {
+    padding: 30px 15px;
+}
+
+.pes .pagoexpress.business article.user-options .search-c .title h3 {
+    margin: 10px 0 30px;
+    color: #333333;
+}
+
+.pes .pagoexpress.business article.user-options .search-c .content {
+    min-height: inherit;
+}
+
+.pes .pagoexpress.business .form .form-group {
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.pes .pagoexpress.business .form .form-group label {
+    color: #00aec7;
+    font-size: 14px;
+    font-weight: 400;
+    position: absolute;
+    top: -10px;
+    background-color: #ffffff;
+    padding: 1px 4px;
+    left: 10px;
+    width: inherit;
+}
+
+.pes .pagoexpress.business .form .form-group label span {
+    color: orange;
+}
+
+.pes .pagoexpress.business .form .form-group input,
+.pes .pagoexpress.business .form .form-group select {
+    background-color: #ffffff;
+    border-radius: 4px;
+    border: 1px solid #c8c8c8;
+    height: 50px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.pes .pagoexpress.business .form .form-group select {
+    margin-bottom: 0;
+}
+
+.pes .pagoexpress.business .form .form-group p {
+    opacity: 0;
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    position: absolute;
+    bottom: -15px;
+    font-size: 12px;
+}
+
+.pes .pagoexpress.business .form .form-group.error p {
+    opacity: 1;
+}
+
+.pes .pagoexpress.business .otp {
+    margin: 0 auto;
+    text-align: center;
+    width: 300px;
+}
+
+.pes .pagoexpress.business .otp .empty img {
+    width: 200px;
+    margin: 0 auto 30px;
+}
+
+.pes .pagoexpress.business .otp .empty h2 {
+    font-family: "FS Joey";
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.pes .pagoexpress.business .otp .action {
+    margin-top: 20px;
+}
+
+.pes .pagoexpress.business .otp .validate-number {
+    position: relative;
+    border-bottom: 1px solid #e9e9e9;
+    padding: 5px 0;
+    margin: 10px 0;
+}
+
+.pes .pagoexpress.business .otp .validate-number p {
+    font-size: 20px;
+    color: #666;
+}
+
+.pes .pagoexpress.business .otp .validate-number .mat-raised-button {
+    position: absolute;
+    right: 0;
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    min-width: inherit;
+    margin-top: -15px;
+    top: 50%;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    outline: none !important;
+    line-height: 0;
+}
+
+.pes .pagoexpress.business .otp .message.success {
+    color: #207d00;
+}
+
+.pes .pagoexpress.business .otp .enter-code {
+    margin-top: 20px;
+}
+
+.pes .pagoexpress.business .otp .enter-code h4 {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.pes .pagoexpress.business .otp .enter-code form {
+    margin: 0 auto;
+    width: 160px;
+}
+
+.pes .pagoexpress.business .otp .enter-code .resend {
+    margin: 0 0 10px;
+}
+
+.pes .pagoexpress.business .otp .enter-code .resend p,
+.pes .pagoexpress.business .otp .enter-code .resend a {
+    font-family: "FS Joey";
+    font-weight: 700;
+}
+
+.pes .pagoexpress.business .otp .enter-code .resend p {
+    font-size: 16px;
+    color: #333333;
+    line-height: 1;
+}
+
+.pes .pagoexpress.business .otp .enter-code .resend button {
+    font-size: 14px;
+    color: #00aec7;
+    text-transform: uppercase;
+    background-color: transparent;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: underline;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: none;
+}
+
+.pes .pagoexpress.business .otp .enter-code .resend button.disabled {
+    color: #c8c8c8;
+    text-decoration: none;
+    cursor: no-drop;
+}
+
+.pes .pagoexpress.business .otp .enter-code .resend .chronometer {
+    color: red;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.pes .pagoexpress.business .otp .enter-code .resend .chronometer span {
+    font-weight: bold;
+}
+
+.pes .pagoexpress.business .banking-movement .title {
+    text-align: center;
+}
+
+.pes .pagoexpress.business .banking-movement .title h1 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #0033a0;
+    font-family: "FS Joey";
+    margin-bottom: 20px;
+}
+
+.pes .pagoexpress.business .banking-movement .box {
+    background-color: #fdfdfd;
+    border: 1px solid #ebebeb;
+    border-radius: 10px;
+    padding: 0px 30px 30px 30px;
+}
+
+.pes .pagoexpress.business .banking-movement .box h2 {
+    color: #333333;
+    font-family: "FS Joey";
+    font-size: 22px;
+    margin: 30px 0 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.pes .pagoexpress.business .main-invoices {
+    margin-top: 10px;
+}
+
+.pes .pagoexpress.business .main-invoices .title h2 {
+    font-family: "FS Joey";
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.pes .pagoexpress.business .main-invoices .invoices .search p {
+    padding: 10px 0;
+    font-family: "FS Joey";
+    font-size: 18px;
+}
+
+.pes .pagoexpress.business .main-invoices .invoices .search a.btn {
+    border-radius: 50px;
+}
+
+.pes .pagoexpress.business .main-invoices .invoices .search .clear-filter {
+    position: absolute;
+    right: 30px;
+    top: 10px;
+}
+
+.pes .pagoexpress.business .main-invoices .invoices .search .clear-filter i {
+    color: #999999;
+    font-size: 24px;
+}
+
+.pes .pagoexpress.business .main-invoices .invoices .search .view-all {
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.pes .pagoexpress.business .main-invoices .invoices .search .view-all label.control {
+    line-height: 22px;
+    padding-left: 33px;
+    text-transform: inherit;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.pes .pagoexpress.business .main-invoices .consigned-value {
+    text-align: center;
+    background-color: #fdfdfd;
+    border: 1px solid #ebebeb;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.pes .pagoexpress.business .main-invoices .consigned-value h3 {
+    font-family: "FS Joey";
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.pes .pagoexpress.business .main-invoices .consigned-value .total {
+    background-color: #00aec7;
+    padding: 10px;
+}
+
+.pes .pagoexpress.business .main-invoices .consigned-value .total h3,
+.pes .pagoexpress.business .main-invoices .consigned-value .total p {
+    color: #ffffff;
+}
+
+.pes .pagoexpress.business .main-invoices .consigned-value .total p {
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.pes .pagoexpress.business .main-invoices .consigned-value .available {
+    padding: 30px 10px;
+}
+
+.pes .pagoexpress.business .main-invoices .consigned-value .available h3,
+.pes .pagoexpress.business .main-invoices .consigned-value .available p {
+    color: #333333;
+}
+
+.pes .pagoexpress.business .main-invoices .consigned-value .available p {
+    font-size: 35px;
+    font-weight: bold;
+    position: relative;
+    display: inline-block;
+}
+
+.pes .pagoexpress.business .main-invoices .consigned-value .available p span {
+    font-size: 21px;
+    position: absolute;
+    top: 7px;
+    right: -17px;
+}
+
+.pes .pagoexpress.business .main-invoices .consigned-value .available p.explanation {
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.pes .pagoexpress.business .main-invoices .consigned-value .available p.explanation span {
+    position: relative;
+    right: inherit;
+    left: 0;
+    top: 0;
+}
+
+.pes .pagoexpress.business .main-invoices .consigned-value .available span {
+    color: #00aec7;
+    font-weight: bold;
+}
+
+.pes .pagoexpress.business .main-invoices .consigned-value.static {
+    position: fixed;
+    width: 396px;
+    top: 150px;
+}
+
+.pes .block span {
+    color: red;
+}
+
+.pes .block a {
+    position: relative;
+    top: 0;
+    color: red;
+}
+
+.pes .block a .popover {
+    width: 200px;
+}
+
+.pes .block a .popover .popover-content {
+    color: #666;
+}
+
+.pes .info-abs .popover {
+    width: 200px;
+}
+
+.pes .info-abs .popover .popover-content ul li {
+    width: 100%;
+    background-color: transparent;
+    color: #666;
+    height: inherit;
+}
+
+.pes .popover {
+    min-width: 422px;
+}
+
+.pes .initial-message {
+    margin-top: 30px;
+}
+
+.pes .initial-message .alert {
+    padding: 5px;
+    text-align: center;
+}
+
+.pes .initial-message .alert.small {
+    display: none;
+}
+
+@media (max-width: 800px) {
+    .pes .initial-message .alert.big {
+        display: none;
+    }
+}
+
+@media (max-width: 800px) {
+    .pes .initial-message .alert.small {
+        display: block;
+    }
+}
+
+.pes .initial-message .alert p {
+    color: #31708f;
+}
+
+.pes .actions-comprobante {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+@media (max-width: 768px) {
+    .pes .actions-comprobante {
+        width: 100%;
+    }
+}
+
+.pes .actions-comprobante li {
+    width: auto;
+    float: left;
+    margin-right: 10px;
+    border-right: 1px solid #0033a0;
+    padding: 0 20px;
+    position: relative;
+    height: 40px;
+    line-height: 40px;
+    text-decoration: underline;
+}
+
+.pes .actions-comprobante li a {
+    display: block;
+    color: #0033a0;
+}
+
+@media (max-width: 768px) {
+    .pes .actions-comprobante li {
+        width: 33%;
+        padding: 0 0px;
+        font-size: 10px;
+        margin-right: 0;
+    }
+}
+
+.pes .actions-comprobante li:last-child {
+    margin-right: 0;
+    border-right: 0;
+}
+
+.pes .actions-comprobante li .icon-act {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    text-align: center;
+}
+
+.pes .actions-comprobante li .icon-act i {
+    font-size: 22px;
+    margin-top: 9px;
+}
+
+.pes .actions-comprobante li span {
+    padding-left: 20px;
+}
+
+@media (max-width: 768px) {
+    .pes .actions-comprobante li span {
+        padding-left: 33px;
+    }
+}
+
+.pes .actions-comprobante li.coupon {
+    display: inline-block;
+}
+
+@media (max-width: 800px) {
+    .pes .actions-comprobante li.coupon {
+        display: inline-block;
+        border: none;
+    }
+}
+
+@media (max-width: 800px) {
+    .pes .actions-comprobante li.voucher {
+        display: none;
+    }
+}
+
+.pes .pagination-sm.bills {
+    float: right;
+    margin-top: 0;
+}
+
+.pes .pagination-sm.bills a {
+    color: #0033a0;
+}
+
+@media (max-width: 375px) {
+    .pes .pagination-sm.bills a {
+        font-size: 10px;
+    }
+}
+
+.pes .pagination-sm.bills .active a {
+    background-color: #0033a0;
+    border-color: #0033a0;
+    color: #fff;
+}
+
+.pes .logos-secure {
+    margin: 60px 0 10px;
+    text-align: center;
+}
+
+.pes .logos-secure ul {
+    display: inline-block;
+}
+
+.pes .logos-secure ul li {
+    float: left;
+    border-right: 1px solid #e0e0e0;
+    text-align: center;
+    padding: 0px 20px;
+}
+
+.pes .logos-secure ul li:last-child {
+    border: none;
+}
+
+.pes .logos-secure ul li:last-child img {
+    margin-top: 12px;
+    width: 105px;
+}
+
+.pes .logos-secure ul li img {
+    width: 95px;
+}
+
+.pes .uib-datepicker-popup.dropdown-menu .btn {
+    padding: 5px 10px;
+    font-weight: 400;
+    font-size: 14px;
+    border: none;
+}
+
+.pes .uib-datepicker-popup.dropdown-menu .btn-info:active,
+.pes .uib-datepicker-popup.dropdown-menu .btn-info.active {
+    background-color: #0033a0;
+    border-color: #95a8d2;
+}
+
+.pes .uib-datepicker-popup.dropdown-menu .btn-info:active .text-info,
+.pes .uib-datepicker-popup.dropdown-menu .btn-info.active .text-info {
+    color: #fff;
+}
+
+.pes .recaptcha {
+    width: 305px;
+    margin: 0 auto;
+    height: 80px;
+}
+
+.pes .recaptcha iframe {
+    margin: 10px 0 0 7px;
+}
+
+.pes .search-c .enter {
+    padding: 20px 0 0;
+}
+
+@media (max-width: 420px) {
+    .pes .search-c .enter {
+        padding: 75px 0 0;
+    }
+    .pes .search-c #recaptcha {
+        -webkit-transform: scale(0.77);
+        -moz-transform: scale(0.77);
+        -ms-transform: scale(0.77);
+        -o-transform: scale(0.77);
+        transform: scale(0.77);
+        -webkit-transform-origin: 0 0;
+        -ms-transform-origin: 0 0;
+        transform-origin: 0 0;
+        margin-left: 50%;
+        left: -117px;
+        position: absolute;
+    }
+    .pes .search-c #rc-imageselect {
+        -webkit-transform: scale(0.77);
+        -moz-transform: scale(0.77);
+        -ms-transform: scale(0.77);
+        -o-transform: scale(0.77);
+        transform: scale(0.77);
+        -webkit-transform-origin: 0 0;
+        -ms-transform-origin: 0 0;
+        transform-origin: 0 0;
+    }
+}
+
+@media (max-width: 1280px) {
+    .pes .pagoexpress article.user-options .home {
+        display: block;
+    }
+}
+
+@media (max-width: 992px) {
+    .pes .pagoexpress article.screen-default .row {
+        margin: 0;
+    }
+}
+
+@media (max-width: 800px) {
+    .pes .pagoexpress-banner {
+        padding: 10px 0 20px;
+    }
+    .pes .pagoexpress-banner h2 {
+        font-size: 20px;
+    }
+    .pes table.table.table-stacktable.small-only label {
+        line-height: 21px;
+    }
+    .pes table.table.table-stacktable.small-only .st-head-row.st-head-row-main {
+        font-size: 1.5em;
+        padding: 10px;
+    }
+    .pes table.table.default tbody tr td {
+        padding: 0 15px;
+        text-align: left;
+    }
+}
+
+@media (max-width: 768px) {
+    .pes .actions-comprobante li {
+        font-size: 14px;
+        width: 50%;
+    }
+    .pes .actions-comprobante li span {
+        padding-left: 40px;
+    }
+    .pes table.table.table-stacktable.small-only label {
+        line-height: 21px;
+    }
+    .pes table.table.table-stacktable.small-only .st-head-row.st-head-row-main {
+        font-size: 1.5em;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .pes .pagoexpress .steps {
+        width: 370px;
+    }
+    .pes .pagoexpress .steps .progress {
+        margin-left: -140px;
+        width: 280px;
+    }
+    .pes .form-consulta {
+        padding: 0;
+    }
+    .pes .actions-comprobante {
+        text-align: center;
+    }
+    .pes .actions-comprobante li {
+        width: 49%;
+        text-align: center;
+        display: inline-block;
+        float: none;
+    }
+    .pes .actions-comprobante li a {
+        padding-top: 10px;
+    }
+    .pes .actions-comprobante li .icon-act {
+        left: 50%;
+        margin-left: -20px;
+        top: -7px;
+    }
+    .pes .actions-comprobante li span {
+        padding-left: 0;
+    }
+    .pes .logos-secure {
+        margin: 20px 0 10px;
+    }
+    .pes .logos-secure ul li {
+        width: 100%;
+        border-right: none;
+        border-bottom: 1px solid #e0e0e0;
+        padding: 20px;
+    }
+}
+
+@media (max-width: 375px) {
+    .pes .pagoexpress .steps {
+        width: 310px;
+    }
+    .pes .pagoexpress .steps .progress {
+        margin-left: -125px;
+        width: 250px;
+    }
+    .pes .pagoexpress .steps ul li a p {
+        font-size: 11px;
+    }
+    .pes .pagoexpress article.user-options .search-c .content .nav-tabs li {
+        padding: 2px;
+    }
+    .pes .pagoexpress article.user-options .search-c .content .nav-tabs li a {
+        font-size: 12px;
+        padding: 6px 6px 8px;
+    }
+    .pes .actions-comprobante {
+        margin-top: 10px;
+    }
+    .pes .actions-comprobante li a {
+        font-size: 12px;
+    }
+}
+
+.box-prueba {
+    width: 400px;
+    margin: 0 auto;
+    border: 1px solid gray;
+}
+
+.box-prueba .btn-animate {
+    background-color: #fff;
+    display: block;
+    position: relative;
+    overflow: hidden;
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+    padding: 4px 7px;
+    -webkit-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    transition: all .2s ease;
+    border: 1px solid red;
+    text-align: right;
+}
+
+.box-prueba .btn-animate.right {
+    float: right;
+    text-align: right;
+}
+
+.box-prueba .btn-animate.center {
+    margin: 0 auto;
+}
+
+.box-prueba .btn-animate p {
+    position: absolute;
+    top: 4px;
+    color: #fff;
+    z-index: 1;
+    opacity: 0;
+    font-weight: bold;
+    -webkit-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    transition: all .2s ease;
+    left: -270px;
+}
+
+.box-prueba .btn-animate i {
+    color: red;
+    -webkit-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    transition: all .2s ease;
+}
+
+.box-prueba:hover .btn-animate {
+    width: 100px;
+    background-color: red;
+}
+
+.box-prueba:hover .btn-animate p {
+    opacity: 1;
+    left: 10px;
+}
+
+.box-prueba:hover .btn-animate i {
+    color: #fff;
+}
+
+.popover-content ul li{
+    width: auto !important;
+    background-color: #fff !important;
+    color: gray;
+}

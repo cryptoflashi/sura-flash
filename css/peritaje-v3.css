@@ -1,0 +1,600 @@
+﻿#agenda-cita-container{
+    width: 1200px;
+    max-width: 100%;
+    margin: 0px auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+#agenda-cita-container > h2{
+    margin: 0px;
+    font-family: 'Barlow-Bold';
+    font-size: 22px;
+    color: #0033A0;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+#agenda-cita-container > p{
+    margin: 0px;
+    font-family: 'Barlow-Regular';
+    font-size: 16px;
+    color: #53565A;
+}
+
+.agenda-cita-row{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.agenda-cita-col{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: auto;
+    width: calc((100% / 5) - 15px);
+    width: -moz-calc((100% / 5) - 15px);
+    height: auto;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    overflow: hidden;
+    border: #ECF0F1 solid 1px;
+    box-sizing: border-box;
+    padding: 10px 10px 10px 10px;
+
+    transition: box-shadow 0.2s;
+    -webkit-transition: box-shadow 0.2s;
+}
+.agenda-cita-col a{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    display: block;
+}
+        
+.agenda-cita-col-bola{
+    position: absolute;
+    width: 100px;
+    height: 130px;
+    border-radius: 50%;
+    background-color: #eef3fb;
+    top: 50%;
+    top: calc(50% - 65px);
+    top: -moz-calc(50% - 65px);
+    left: -60px;
+
+    transition: width 0.25s, height 0.25s, top 0.25s, left 0.25s, border-radius 0.25s;
+    -webkit-transition: width 0.25s, height 0.25s, top 0.25s, left 0.25s, border-radius 0.25s;
+}
+.agenda-cita-col-icon{
+    position: relative;
+    margin-right: 10px;
+}
+.agenda-cita-col-icon i{
+    color: #0033A0;
+    font-size: 25px;
+}
+
+.agenda-cita-col-text{
+    position: relative;
+    margin: 0px;
+    font-family: 'Barlow-Medium';
+    font-size: 16px;
+    color: #53565A;
+}
+.agenda-cita-col-text span{
+    font-family: 'Barlow-Bold';
+}
+
+.agenda-cita-col:hover{
+    box-shadow: 0px 2px 20px #ECF0F1;
+    cursor: pointer;
+}
+.agenda-cita-col:hover .agenda-cita-col-bola{
+    width: 150%;
+    height: 150%;
+    top: -25%;
+    left: -25%;
+    border-radius: 0px;
+}
+
+#modal-agenda-cita{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+#modal-agenda-cita-back{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+
+    transition: background-color 0.5s;
+    -webkit-transition: background-color 0.5s;
+}
+#modal-agenda-cita-box{
+    width: 725px;
+    height: auto;
+    position: relative;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    box-sizing: border-box;
+    padding: 15px 30px;
+    padding-top: 50px;
+
+    transition: top 0.5s, opacity 0.5s;
+    -webkit-transition: top 0.5s, opacity 0.5s;
+}
+
+.modal-agenda-cita-off{
+    visibility: hidden;
+
+    transition: visibility 0.5s;
+    -webkit-transition: visibility 0.5s;
+}
+.modal-agenda-cita-on{
+    visibility: visible;
+
+    transition: visibility 0s;
+    -webkit-transition: visibility 0s;
+}
+
+.modal-agenda-cita-off #modal-agenda-cita-box{
+    opacity: 0;
+    top: -20px;
+}
+.modal-agenda-cita-on #modal-agenda-cita-box{
+    opacity: 1;
+    top: 0px;
+}
+.modal-agenda-cita-off #modal-agenda-cita-back{
+    background-color: rgba(0,0,0,0);
+}
+.modal-agenda-cita-on #modal-agenda-cita-back{
+    background-color: rgba(0,0,0,0.65);
+}
+        
+#modal-agenda-cita-close{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 15px;
+    right: 30px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0,0,0,0);
+    border: none;
+    min-width: initial;
+    max-width: initial;
+    padding: 0px;
+    margin: 0px;
+}
+#modal-agenda-cita-close i{
+    color: #53565A;
+    font-size: 25px;
+}
+#modal-agenda-cita-close i:hover{
+    opacity: 0.65;
+}
+
+#modal-agenda-cita-box > h1{
+    margin: 0px;
+    font-family: 'Barlow-Bold';
+    font-size: 22px;
+    color: #0033A0;
+    font-weight: normal;
+    margin-bottom: 13px;
+    text-align: center;
+}
+#modal-agenda-cita-content{
+    position: relative;
+    width: 100%;
+    margin: 0px;
+}
+#modal-agenda-cita-content > div{
+    position: relative;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    display: none;
+}
+.modal-agenda-cita-content-box-bogota #modal-agenda-cita-content-bogota{
+    display: block !important;
+}
+.modal-agenda-cita-content-box-cali #modal-agenda-cita-content-cali{
+    display: block !important;
+}
+.modal-agenda-cita-content-box-medellin #modal-agenda-cita-content-medellin{
+    display: block !important;
+}
+.modal-agenda-cita-content-box-pereira #modal-agenda-cita-content-pereira{
+    display: block !important;
+}
+
+#modal-agenda-cita-box > p{
+    margin: 0px;
+    font-family: 'Barlow-Regular';
+    font-size: 16px;
+    color: #53565A;
+    text-align: center;
+}
+        
+.modal-agenda-cita-formgroup{
+    width: 400px;
+    margin: 0px auto;
+    height: auto;
+}
+#modal-agenda-cita-content-medellin .modal-agenda-cita-formgroup{
+    width: 100% !important;
+}
+
+.modal-agenda-cita-formgroup-col{
+    position: relative;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.modal-agenda-cita-formgroup-row1,
+.modal-agenda-cita-formgroup-row2{
+    position: relative;
+    width: 50%;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.modal-agenda-cita-formgroup-row1{
+    padding-right: 15px;
+}
+.modal-agenda-cita-formgroup-row2{
+    padding-left: 15px;
+}
+
+.modal-agenda-cita-formgroup p{
+    margin: 0px;
+    font-family: 'Barlow-Medium';
+    font-size: 14px;
+    color: #0033A0;
+    margin-bottom: 6px;
+}
+.diferente-peritaje-icon{
+    color: #0033A0;
+    font-size: 12px;
+    margin-right: 5px;
+}
+
+.modal-agenda-cita-otro{
+    font-size: 16px !important;
+    font-family: 'Barlow-Bold' !important;
+}
+.modal-agenda-cita-otro span{
+	font-family: 'Barlow-Regular';
+}
+
+.modal-agenda-cita-select{
+    width: 100%;
+    position: relative;
+    height: 50px;
+    border-radius: 5px;
+    border: #ECF0F1 solid 1px;
+    overflow: hidden;
+    cursor: pointer;
+
+    transition: border 0.2s, box-shadow 0.2s;
+    -webkit-transition: border 0.2s, box-shadow 0.2s;
+}
+
+.modal-agenda-cita-select:hover{
+    border: #00a7dc solid 1px;
+    box-shadow: 0px 2px 5px rgba(0,167,220, 0.5);
+}
+.modal-agenda-cita-select span{
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 0px 50px 0px 25px;
+
+    font-family: 'Barlow-Regular';
+    font-size: 16px;
+    color: #53565A;
+}
+.modal-agenda-cita-select span::after{
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-top: 7px solid #7e89a7;
+    border-left: 5px solid rgba(0,0,0,0);
+    border-right: 5px solid rgba(0,0,0,0);
+    top: 50%;
+    top: calc(50% - 3.5px);
+    top: -moz-calc(50% - 3.5px);
+    right: 20px;
+    border-radius: 4px;
+}
+.modal-agenda-cita-select select{
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    outline: none;
+    outline-width: 0;
+    font-size: 15px;
+    font-family: 'Barlow-Regular', Arial;
+    background-color: #FFFFFF;
+}
+
+.modal-agenda-cita-btn-col{
+    position: relative;
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.modal-agenda-cita-btn{
+    position: relative;
+    width: auto;
+    display: inline-flex;
+    height: 45px;
+    border-radius: 23px;
+    box-sizing: border-box;
+    margin: 0px auto;
+    padding: 0px 23px;
+    background-color: #0033A0;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none !important;
+
+    font-family: 'Barlow-Bold';
+    font-size: 16px;
+    color: #FFFFFF !important;
+    text-align: left;
+    font-weight: normal;
+    line-height: normal;
+    text-transform: uppercase;
+    border: #0033A0 solid 2px;
+
+    transition: background-color 0.2s, color 0.2s;
+    -webkit-transition: background-color 0.2s, color 0.2s;
+}
+.modal-agenda-cita-btn i{
+    margin-left: 10px;
+    font-size: 14px;
+    color: #FFFFFF !important;
+}
+.modal-agenda-cita-btn:hover{
+    cursor: pointer;
+    background-color: #FFFFFF;
+    color: #0033A0 !important;
+}
+.modal-agenda-cita-btn:hover i{
+    color: #0033A0 !important;
+}
+
+.modal-agenda-info{
+    position: relative;
+    width: 400px;
+    margin: 15px auto;
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    background-color: #0033A01A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.modal-agenda-info i{
+    display: flex;
+    width: 25px;
+    height: 25px;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    font-size: 25px;
+    color: #212529;
+}
+.modal-agenda-info-text{
+    display: block;
+    width: auto;
+    width: calc(100% - 35px);
+    width: -moz-calc(100% - 35px);
+}
+.modal-agenda-info-text p{
+    display: block;
+    width: auto;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Barlow-Regular';
+    color: #212529;
+    font-size: 14px;
+    text-align: left;
+    font-weight: normal;
+    line-height: normal;
+}
+.modal-agenda-info-text p span{
+    font-family: 'Barlow-Bold';
+}
+.modal-agenda-info-text p br{
+    display: none;
+}
+
+@media (min-width: 768px) and (max-width: 959px){
+    .agenda-cita-row{
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .agenda-cita-col{
+        width: auto;
+        width: calc((100% / 3) - 30px);
+        width: -moz-calc((100% / 3) - 30px);
+        margin: 15px 15px;
+        min-height: 60px;
+    }
+    .agenda-cita-col-text{
+        font-size: 15px;
+    }
+
+    #modal-agenda-cita-box{
+        width: 700px;
+        padding: 15px 25px;
+        padding-top: 40px;
+    }
+}
+
+@media (max-width: 767px){
+    .agenda-cita-row{
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .agenda-cita-col{
+        width: auto;
+        width: calc((100% / 2) - 20px);
+        width: -moz-calc((100% / 2) - 20px);
+        margin: 15px 10px;
+        min-height: 60px;
+    }
+    .agenda-cita-col-text{
+        font-size: 15px;
+    }
+
+    #agenda-cita-container > h2{
+        font-size: 21px;
+    }
+    #agenda-cita-container > p{
+        font-size: 15px;
+    }
+
+    #modal-agenda-cita-box{
+        width: 90%;
+        padding: 15px 25px;
+        padding-top: 40px;
+    }
+    #modal-agenda-cita-box > h1{
+        font-size: 21px;
+    }
+    #modal-agenda-cita-box > p{
+        font-size: 15px;
+    }
+    .modal-agenda-cita-select{
+        height: 40px;
+    }
+    .modal-agenda-cita-btn{
+        height: 40px;
+        border-radius: 20px;
+        padding: 0px 20px;
+        font-size: 15px;
+    }
+    .modal-agenda-cita-btn i{
+        margin-left: 8px;
+        font-size: 14px;
+    }
+    .modal-agenda-info{
+        width: 100%;
+    }
+    .modal-agenda-info i{
+        width: 20px;
+        height: 20px;
+        font-size: 20px;
+    }
+    .modal-agenda-info-text{
+        width: auto;
+        width: calc(100% - 30px);
+        width: -moz-calc(100% - 30px);
+    }
+
+    .modal-agenda-cita-formgroup-col{
+        display: block;
+    }
+    .modal-agenda-cita-formgroup-row1,
+    .modal-agenda-cita-formgroup-row2{
+        width: 100%;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+}
+
+@media (max-width: 519px){
+    .agenda-cita-row{
+        display: block;
+    }
+
+    .agenda-cita-col{
+        width: 300px;
+        margin: 0px auto;
+        min-height: 60px;
+        margin-bottom: 15px;
+    }
+    .agenda-cita-col-text{
+        font-size: 15px;
+    }
+
+    #modal-agenda-cita-box{
+        width: 100%;
+        width: calc(100% - 30px);
+        width: -moz-calc(100% - 30px);
+        padding: 15px 20px;
+        padding-top: 30px;
+    }
+    #modal-agenda-cita-box > h1{
+        font-size: 21px;
+    }
+    #modal-agenda-cita-box > p{
+        font-size: 15px;
+    }
+    .modal-agenda-cita-formgroup p{
+        font-size: 13px;
+    }
+    .modal-agenda-cita-select{
+        height: 35px;
+    }
+    .modal-agenda-cita-btn{
+        height: 35px;
+        border-radius: 17px;
+        padding: 0px 15px;
+        font-size: 14px;
+    }
+    .modal-agenda-cita-btn i{
+        margin-left: 5px;
+        font-size: 13px;
+    }
+    .modal-agenda-info{
+        width: 100%;
+    }
+    .modal-agenda-info i{
+        width: 17px;
+        height: 17px;
+        margin-right: 7px;
+        font-size: 17px;
+    }
+    .modal-agenda-info-text{
+        width: auto;
+        width: calc(100% - 24px);
+        width: -moz-calc(100% - 24px);
+    }
+    .modal-agenda-info-text p{
+        font-size: 13px;
+    }
+}

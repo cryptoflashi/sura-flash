@@ -1,0 +1,270 @@
+﻿.canales-contacto-container{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0px auto;
+    padding: 0px;
+}
+
+.canales-contacto-title{
+    display: block !important;
+    width: auto;
+    height: auto;
+    border: none;
+    margin: 0px;
+    padding: 0px;
+
+    font-family: 'Barlow-Bold';
+    font-size: 32px;
+    color: #0033A0;
+    font-weight: normal;
+    line-height: normal;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.canales-contacto-col{
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 40px;
+
+    display: flex;
+    align-items: stretch;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.canales-contacto-card{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    border-radius: 5px;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 10px #0000001F;
+    margin: 0px;
+    padding: 0px;
+
+    max-width: 300px;
+    width: auto;
+    width: calc((100% - (30px * 3)) / 3);
+    width: -moz-calc((100% - (30px * 3)) / 3);
+    height: 280px;
+    cursor: default;
+    margin-bottom: 20px;
+}
+
+.canales-contacto-col .canales-contacto-card:last-child{
+    /*margin-right: auto;*/
+}
+
+.canales-contacto-front{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    border: #E0E0E0 solid 1px;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 30px;
+}
+.canales-contacto-front > h4,
+.canales-contacto-back > div h4{
+    display: block;
+    width: auto;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    border: none;
+
+    font-family: 'Barlow-Bold';
+    font-size: 25px !important;
+    font-weight: normal;
+    line-height: normal;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.canales-contacto-front > h4{
+    color: #53565A;
+}
+.canales-contacto-front > div{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: 0px;
+    padding: 0px;    
+}
+.canales-contacto-front > div img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.canales-contacto-back{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0033a0;
+    border: #0033a0 solid 1px;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 30px;
+
+    top: 100%;
+    opacity: 0;
+
+    transition: top 0.3s, opacity 0.3s;
+    -webkit-transition: top 0.3s, opacity 0.3s;
+}
+.canales-contacto-card:hover .canales-contacto-back,
+.canales-contacto-card-view .canales-contacto-back{
+    opacity: 1;
+    top: 0px;
+}
+
+.canales-contacto-back > div{
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0px;
+    padding: 0px;
+}
+.canales-contacto-back > div h4{
+    color: #FFFFFF;
+}
+.canales-contacto-back > div > p{
+    display: block;
+    width: auto;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    border: none;
+
+    font-family: 'Barlow-Regular';
+    font-size: 18px;
+    font-weight: normal;
+    line-height: normal;
+    color: #FFFFFF;
+    text-align: center;
+}
+.canales-contacto-back a{
+    display: block;
+    margin: 0px;
+    text-decoration: none;
+}
+.canales-contacto-back button{
+    outline: none;
+    outline-width: 0;
+    width: auto;
+    min-width: 170px;
+    height: 45px;
+    border-radius: 23px;
+    box-sizing: border-box;
+    background-color: #0033a0;
+    border: #FFFFFF solid 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: 'Barlow-Bold';
+    font-size: 15px;
+    color: #FFFFFF;
+    font-weight: normal;
+    line-height: normal;
+    text-align: center;
+
+    transition: background-color 0.2s, color 0.2s;
+    -webkit-transition: background-color 0.2s, color 0.2s;
+}
+.canales-contacto-back button:hover{
+    color: #0033a0;
+    background-color: #FFFFFF;
+}
+
+.canales-contact-redes{
+    display: flex;
+    width: 100%;
+    height: 30px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.canales-contact-redes a{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+.canales-contact-redes a i{
+    color: #FFFFFF;
+    font-size: 30px;
+}
+
+.canales-contacto-front-btn{
+    outline: none;
+    outline-width: 0;
+    width: auto;
+    height: 40px;
+    margin: 0px auto;
+    margin-top: 15px;
+    border: #0033A0 solid 1px;
+    background-color: rgba(255,255,255,1);
+    border-radius: 20px;
+    box-sizing: border-box;
+    padding: 0px 15px;
+
+    font-family: 'Barlow-Bold';
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #0033A0;
+    font-weight: normal;
+    line-height: normal;
+    display: none;
+}
+
+@media (min-width: 650px) and (max-width: 959px){
+    .canales-contacto-col{
+        justify-content: space-evenly;
+    }
+
+    .canales-contacto-card{
+        width: auto;
+        width: calc((100% - (40px * 2)) / 2);
+        width: -moz-calc((100% - (40px * 2)) / 2);
+    }
+}
+
+@media (max-width: 650px){
+    .canales-contacto-col{
+        justify-content: center;
+    }
+
+    .canales-contacto-card{
+        width: 300px;
+        margin-left: initial;
+        margin-right: initial;
+    }
+    .canales-contacto-front > div{
+        height: 100px;
+    }
+    .canales-contacto-front-btn{
+        display: block;
+    }
+}
