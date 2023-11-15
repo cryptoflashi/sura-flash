@@ -1,0 +1,82 @@
+﻿html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td { margin: 0; padding: 0; border: 0; outline: 0; font-size: 100%; vertical-align: baseline; background: transparent; font-family:Arial, Helvetica, sans-serif; }
+body { line-height: 1; }
+ol, ul { list-style: none; }
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+/* remember to define focus styles! */
+:focus { outline: 0; }
+/* remember to highlight inserts somehow! */
+ins { text-decoration: none; }
+del { text-decoration: line-through; }
+/* tables still need 'cellspacing="0"' in the markup */
+table { border-collapse: collapse; border-spacing: 0; }
+div.descripcion { text-transform:uppercase; text-align:left; color:#666; line-height: 18px; }
+/**********/
+#wrapper { width:100%; font-family:Arial, Helvetica, sans-serif; font-size:12px; }
+#header { background:url(../images/header.jpg) top right no-repeat; height:79px; width:100%; }
+#logo { width:800px; margin: 0 auto; height: 38px; }
+#menu_footer { background:url(../images/menu_bg.png) top left repeat-x; height:31px; width:100%; margin: 0 0 15px 0; }
+#menu { background:url(https://www.segurossura.com.co/Mapas/images/menu_footer.jpg) bottom center no-repeat; height: 31px; width:800px; margin: 0 auto; padding: 0 0 8px 0; }
+ul#menu_principal li { float: left; }
+ul#menu_principal li a { padding: 9px 17px 0 17px; color:#FFF; font-size:14px; background:none; text-decoration:none; display:block; height:22px; }
+ul#menu_principal li a:hover { background:#F6AC57; text-decoration:none; }
+ul#menu_principal li.parent ul { visibility:hidden; }
+ul#menu_principal li.parent ul { background:#EF8201; position:relative; }
+ul#menu_principal li.parent ul li { width: 150px; background:#EF8201; }
+ul#menu_principal li.parent ul li a { font-size:12px; padding:7px 17px; height:auto; }
+ul#menu_principal li.parent ul li a:hover { background:#666; font-weight:bold; }
+#mapa_autosura { width:100%; height:calc(100vh); margin: 0px auto 0 auto; }
+#cargador { background:#FFF; position:absolute; z-index:100; text-align:center; vertical-align:middle; padding:250px 0 0 0; height:300px; width:800px; display:none; }
+#footer { background:url(https://www.segurossura.com.co/Mapas/images/footer.png) top left no-repeat; height:50px; margin:0 auto; width:800px; }
+#knowbi { float:right; margin: 15px 50px 0 0; }
+.clear { clear:both; }
+#dropdown { width:800px; margin: 0 auto; }
+#dropdown .elSelect, #dropdown select { float: right; }
+.desc { color: #6b6b6b; }
+.desc a { color: #0092dd; }
+.dropdown2 {
+    /* background: url(../images/select_bg.gif) no-repeat center top; */
+    height: 26px;
+    width: 220px;
+    background: white;
+    color: #000;
+    user-select: none;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px;
+    border-radius: 2px;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    /* width: 40px; */
+    /* height: 81px; */
+    padding: 10px;
+}
+.table-selector{
+	position: absolute;
+    z-index: 9999999;
+    top: 20px;
+    left: 30px;
+}
+.dropdown2 dd, .dropdown dt, .dropdown ul { margin: 0px; padding: 0px; }
+.dropdown2 dd { position: relative; }
+.dropdown2 a, .dropdown a:visited { color: #816c5b; text-decoration: none; outline: none; }
+.dropdown2 a:hover { color: #5d4617; }
+.dropdown2 dt a:hover { color: #5d4617; border: 1px solid #d0c9af; }
+.dropdown2 dt a { color: #fff !important; background: url(../images/select_arrow.png) no-repeat scroll right center; display: block; padding-left: 5px; border: none !important; width: 200px; font-family: Arial, Helvetica, Sans-Serif; font-size: 0.75em; color: #000; z-index:1000; font-weight: bold !important; }
+.dropdown2 dt a span { cursor: pointer; display: block; padding: 5px; z-index:1000;    color: #000;
+    font-size: 16px; }
+.dropdown2 dd ul { background: #f0f0f0 none repeat scroll 0 0; border:solid 1px #ccc; color: #C5C0B0; display: none; left: 0px; padding: 5px 0px; position: absolute; top: 2px; width: auto; min-width: 220px; list-style: none; z-index:1000; }
+.dropdown2 span.value { display: none; }
+.dropdown2 dd ul li a { font-weight: bold; padding: 5px; display: block; font-family: Arial, Helvetica, Sans-Serif; font-size: 0.75em; color: #9d9c9c; z-index:1000; }
+.dropdown2 dd ul li a:hover {
+	background: #fff;
+	font-family: Arial, Helvetica, Sans-Serif;
+	font-size: 0.75em;
+	color: #013195;
+	font-weight: bold;
+	z-index: 1000;
+}
+.dropdown2 img.flag { border: none; vertical-align: middle; margin-left: 10px; z-index:1000; }
+.flagvisibility { display: none; }
+.gm-fullscreen-control {
+  display: none;
+}
+
